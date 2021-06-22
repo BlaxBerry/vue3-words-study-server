@@ -1,19 +1,18 @@
 <template>
-  <div class="skills">
+  <div class="about">
     <!-- title -->
-    <h2 class="title">Skills</h2>
-    <h3 class="title2">について</h3>
+    <h2 class="title">About Me</h2>
+    <h3 class="title2">自分について</h3>
 
     <!-- contnet -->
     <div>
-      <p class="center-align">Skills</p>
+        <p class="center-align">About Myself</p>
     </div>
 
     <!-- link -->
     <div class="center-align">
-      <router-link to="/skills">Show Skills Detail -></router-link>
+      <router-link to="/profile">Show Profile -></router-link>
     </div>
-
   </div>
 </template>
 

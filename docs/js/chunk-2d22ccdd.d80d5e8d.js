@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d22ccdd"],{f591:function(e,t,l){"use strict";l.r(t);var n=function(){var e=this,t=e.$createElement,l=e._self._c||t;return l("div",{attrs:{id:"detailskills"}},[e._v(" Detail SKills Page ")])},i=[],s={},a=s,c=l("2877"),d=Object(c["a"])(a,n,i,!1,null,"27940027",null);t["default"]=d.exports}}]);
-//# sourceMappingURL=chunk-2d22ccdd.d80d5e8d.js.map

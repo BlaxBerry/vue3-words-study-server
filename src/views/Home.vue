@@ -5,8 +5,11 @@
     <!-- Header -->
     <Header></Header>
 
-    <!-- About -->
-    <About></About>
+    <!-- About Site-->
+    <AboutSite></AboutSite>
+
+    <!-- About Me-->
+    <AboutMe></AboutMe>
 
     <!-- Skills -->
     <Skills></Skills>
@@ -26,7 +29,8 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 import Header from "@/components/Header.vue";
-import About from "@/components/About.vue";
+import AboutSite from "@/components/AboutSite.vue";
+import AboutMe from "@/components/AboutMe.vue";
 import Skills from "@/components/Skills.vue";
 import Works from "@/components/Works.vue";
 import Contact from "@/components/Contact.vue";
@@ -37,7 +41,8 @@ export default {
   components: {
     // HelloWorld
     Header,
-    About,
+    AboutSite,
+    AboutMe,
     Skills,
     Works,
     Contact,
