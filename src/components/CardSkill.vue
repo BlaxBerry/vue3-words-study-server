@@ -1,24 +1,35 @@
 <template>
-  <div class="card-skill center-align">
-    <img src="../assets/images/javascript.svg" alt="" />
-    <h4>JavaScript</h4>
+  <div class="cardskill-container">
+    <div
+      class="center-align card-skill"
+      v-for="(item, index) in skills"
+      :key="index"
+    >
+      <img :src="item.svg" alt="" />
+      <h4>{{ item.name }}</h4>
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["skills"],
+};
 </script>
 
 <style lang="less" scoped>
-.card-skill {
-  padding: 1rem 3rem;
-  cursor: pointer;
-  &:hover {
-    background-color: antiquewhite;
-  }
+.cardskill-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
-  img {
-    width: 5rem;
+  .card-skill {
+    padding: 2rem;
+    width: 12rem;
+    cursor: pointer;
+    &:hover {
+      background-color: antiquewhite;
+    }
   }
 }
 </style>
