@@ -100,9 +100,10 @@ export default {
   flex-wrap: wrap;
 
   .card-skill {
-    padding: 2rem;
-    width: 10rem;
-    font-size: 1rem;
+    padding: 1rem;
+    width: 7.5rem;
+    font-size: 0.3rem;
+    margin: 0.5rem;
     cursor: pointer;
     &:hover {
       background-color: antiquewhite;

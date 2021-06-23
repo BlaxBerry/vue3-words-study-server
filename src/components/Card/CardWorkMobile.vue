@@ -1,7 +1,12 @@
 <template>
   <div>
     <ul class="card-work-container">
-      <li class="card-work" v-for="(item, index) in list" :key="index">
+      <li
+        class="card-work"
+        v-for="(item, index) in list"
+        :key="index"
+        @click="clickCard(item)"
+      >
         <img :src="item.mianPic" alt="" class="shadow-box scale-box" />
         <div class="card-content">
           <h3 class="center-align"></h3>
@@ -19,6 +24,18 @@
 <script>
 export default {
   props: ["list"],
+  data() {
+    return {};
+  },
+  methods: {
+    // click card send data to Home Component and change mask block falg
+    clickCard(item) {
+      // console.log(item);
+      this.$parent.$parent._data.cardWorkData = item;
+      // console.log(this.$parent.$parent._data.cardWorkData);
+      this.$parent.$parent._data.maskFlag = true;
+    },
+  },
 };
 </script>
 

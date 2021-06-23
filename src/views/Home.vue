@@ -38,7 +38,7 @@ import Skills from "@/components/Skills.vue";
 import Works from "@/components/Works.vue";
 import Contact from "@/components/Contact.vue";
 import Footer from "@/components/Footer.vue";
-import MaskWork from "@/views/MaskWork.vue";
+import MaskWork from "@/components/Mask/MaskWork.vue";
 
 export default {
   name: "Home",

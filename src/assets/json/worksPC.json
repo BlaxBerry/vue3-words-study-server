@@ -4,7 +4,7 @@
         "title": "Static Websit",
         "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
         "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress",
-        "desc": "这是个静态页面的连续，后续练习了webpack",
+        "desc": "This is a PC Static Website for Practicing basic box-model-layout and flexible-layout",
         "techStack": [
             "HTML5 + CSS3",
             "jQuery"
@@ -12,7 +12,9 @@
         "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
         "pics": [
             "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
-            "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/02.png"
+            "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/02.png",
+            "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/03.png",
+            "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/04.png"
         ]
     },
     {
@@ -20,13 +22,14 @@
         "title": "",
         "website": "https://blaxberry.github.io/-Portfolio/",
         "github": "https://github.com/BlaxBerry/-Portfolio",
-        "desc": [
-            "",
-            ""
-        ],
+        "desc": "This is a SPA (Single Page Application) created according to Vue.js, developed by Vue-Cli, used MediaQuery for Responsive, rendering templates by Local JSON files.",
         "techStack": [
-            "",
-            ""
+            "Vue.js",
+            "Vue-Cli",
+            "Vue-Router",
+            "Webpack",
+            "Less",
+            "MediaQuery"
         ],
         "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
         "pics": [
@@ -35,7 +38,7 @@
         ]
     },
     {
-        "name": "Wedding Dress",
+        "name": "?",
         "title": "",
         "website": "https://blaxberry.github.io/Mobile-book-shopping/",
         "github": "https://github.com/BlaxBerry/Mobile-book-shopping",
@@ -54,22 +57,18 @@
         ]
     },
     {
-        "name": "Wedding Dress",
+        "name": "Student Info Management",
         "title": "",
-        "website": "https://blaxberry.github.io/Mobile-book-shopping/",
-        "github": "https://github.com/BlaxBerry/Mobile-book-shopping",
-        "desc": [
-            "",
-            ""
-        ],
+        "website": "",
+        "github": "https://github.com/BlaxBerry/SSR-user_info_management",
+        "desc": "SSR (Server Side Rending) created by Node.js, connected to MongoDB, rendering HTML page templates by TemplateEngine art-template.",
         "techStack": [
-            "",
-            ""
+            "Node.js",
+            "MongoDB",
+            "art-template",
+            "Bootstraps"
         ],
-        "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
-        "pics": [
-            "",
-            ""
-        ]
+        "mianPic": "https://d2v9k5u4v94ulw.cloudfront.net/assets/images/7058337/original/5c451532-db01-4337-b8a5-31879079e9d2?1624292495",
+        "pics": []
     }
 ]
