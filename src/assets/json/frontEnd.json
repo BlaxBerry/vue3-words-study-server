@@ -2,13 +2,13 @@
     {
         "params": "html",
         "name": "HTML",
-        "svg": "/images/html5.svg",
+        "picSrc": "@/assets/images/html5.png",
         "desc": "",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "",
+                "picSrc": "@/assets/images/",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -19,13 +19,13 @@
     {
         "params": "css",
         "name": "CSS",
-        "svg": "/images/css3.svg",
+        "picSrc": "@/assets/images/css3.png",
         "desc": "",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "",
+                "picSrc": "@/assets/images/",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -36,13 +36,13 @@
     {
         "params": "javascript",
         "name": "JavaScript",
-        "svg": "/images/javascript.svg",
+        "picSrc": "@/assets/images/javascript.png",
         "desc": "",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "",
+                "picSrc": "@/assets/images/",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -53,13 +53,13 @@
     {
         "params": "jquery",
         "name": "jQuery",
-        "svg": "/images/jQuery.svg",
+        "picSrc": "@/assets/images/jQuery.png",
         "desc": "",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "",
+                "picSrc": "@/assets/images/",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -70,13 +70,13 @@
     {
         "params": "less",
         "name": "Less",
-        "svg": "/images/less.svg",
+        "picSrc": "@/assets/images/less.png",
         "desc": "",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "",
+                "picSrc": "@/assets/images/",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -87,13 +87,13 @@
     {
         "params": "sass",
         "name": "Sass",
-        "svg": "/images/sass.svg",
+        "picSrc": "@/assets/images/sass.png",
         "desc": "",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "",
+                "picSrc": "@/assets/images/",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -104,13 +104,13 @@
     {
         "params": "react",
         "name": "React",
-        "svg": "/images/React.svg",
+        "picSrc": "@/assets/images/React.png",
         "desc": "",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "",
+                "picSrc": "@/assets/images/",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -121,13 +121,13 @@
     {
         "params": "vue",
         "name": "Vue",
-        "svg": "/images/vue.svg",
+        "picSrc": "@/assets/images/vue.png",
         "desc": "",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "",
+                "picSrc": "@/assets/images/",
                 "desc": [],
                 "website": "",
                 "github": ""
