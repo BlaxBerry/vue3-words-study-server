@@ -101,7 +101,8 @@ export default {
 
   .card-skill {
     padding: 2rem;
-    width: 12rem;
+    width: 10rem;
+    font-size: 1rem;
     cursor: pointer;
     &:hover {
       background-color: antiquewhite;

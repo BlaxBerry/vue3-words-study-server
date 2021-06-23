@@ -22,6 +22,9 @@
 
     <!-- Footer -->
     <Footer></Footer>
+
+    <!-- MaskWork -->
+    <MaskWork :workData="cardWorkData" v-if="maskFlag"></MaskWork>
   </div>
 </template>
 
@@ -35,9 +38,18 @@ import Skills from "@/components/Skills.vue";
 import Works from "@/components/Works.vue";
 import Contact from "@/components/Contact.vue";
 import Footer from "@/components/Footer.vue";
+import MaskWork from "@/views/MaskWork.vue";
 
 export default {
   name: "Home",
+  data() {
+    return {
+      // mask work detail data flag
+      maskFlag: false,
+      // card Work is clicked then send work data to here
+      cardWorkData: {},
+    };
+  },
   components: {
     // HelloWorld
     Header,
@@ -47,6 +59,12 @@ export default {
     Works,
     Contact,
     Footer,
+    MaskWork,
   },
 };
 </script>
+<style lang="less" scoped>
+.home {
+  position: relative;
+}
+</style>

@@ -1,21 +1,18 @@
 [
     {
         "name": "Wedding Dress",
-        "title": "",
-        "website": "https://blaxberry.github.io/Mobile-book-shopping/",
-        "github": "https://github.com/BlaxBerry/Mobile-book-shopping",
-        "desc": [
-            "",
-            ""
-        ],
+        "title": "Static Websit",
+        "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
+        "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress",
+        "desc": "这是个静态页面的连续，后续练习了webpack",
         "techStack": [
-            "",
-            ""
+            "HTML5 + CSS3",
+            "jQuery"
         ],
-        "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/static/img/1.png",
+        "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
         "pics": [
-            "",
-            ""
+            "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
+            "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/02.png"
         ]
     },
     {
@@ -31,7 +28,7 @@
             "",
             ""
         ],
-        "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/static/img/1.png",
+        "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
         "pics": [
             "",
             ""
@@ -50,7 +47,7 @@
             "",
             ""
         ],
-        "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/static/img/1.png",
+        "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
         "pics": [
             "",
             ""
@@ -69,7 +66,7 @@
             "",
             ""
         ],
-        "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/static/img/1.png",
+        "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
         "pics": [
             "",
             ""

@@ -55,12 +55,20 @@ li {
 }
 
 // 变色图片
+.grayscale-img {
+  filter: grayscale(70%);
+  transition: all 1s;
+  &:hover {
+    filter: grayscale(0);
+  }
+}
 
 // 阴影盒子
 .shadow-box {
-  box-shadow: 1px 1px 5px 1px gray;
+  box-shadow: 1px 1px 5px 1px #333;
+  transition: all 0.5s;
   &:hover {
-    box-shadow: 1px 5px 15px 1px gray;
+    box-shadow: 1px 5px 15px 1px #333;
   }
 }
 // 缩放盒子
