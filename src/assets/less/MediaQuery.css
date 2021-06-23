@@ -1,29 +1,19 @@
-//大于1200 大屏幕电脑
 @media screen and (min-width: 1200px) {
   .cardskill-container {
     margin: 0 10%;
   }
 }
-
-// 大于1044 中屏幕电脑
-@media screen and(min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
   .cardskill-container {
-    // skill card 一行3个
     margin: 0 25%;
   }
 }
-
-// 768px到1023之间 iPad
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cardskill-container {
-    // skill card 一行5个
     margin: 0 10%;
   }
 }
-
-// 480px到768之间 手机屏幕
 @media screen and (max-width: 767px) {
-  // skill card 一行2个
   .cardskill-container {
     margin: 0 5%;
   }
