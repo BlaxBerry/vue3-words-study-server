@@ -1,15 +1,24 @@
 <template>
-  <div class="concat">
-      Contact
+  <div class="contact">
+    <!-- title -->
+    <Title>
+      <h1 slot="title1" class="title1">Contact</h1>
+      <h2 slot="title2" class="title2">連絡について</h2>
+    </Title>
+    
+    <!-- desc -->
+    <p class="center-align">about my skills.......</p>
+    <br />
   </div>
 </template>
 
 <script>
+import Title from "@/components/Title/Title.vue";
 export default {
-
-}
+  components: {
+    Title,
+  },
+};
 </script>
 
-<style lang="less" scoped>
-
-</style>
+<style lang="less" scoped></style>

@@ -1,8 +1,11 @@
 <template>
   <div id="detailskills">
     <!-- title -->
-    <h2 class="title">SKills Detail</h2>
-    <h3 class="title2">SKillsについて</h3>
+    <Title>
+      <h1 slot="title1" class="title1">{{this.$route.name}}</h1>
+      <h2 slot="title2" class="title2">今までのスキル詳細について</h2>
+    </Title>
+
 
     <!-- contnet -->
     <div>
@@ -17,7 +20,12 @@
 </template>
 
 <script>
-export default {};
+import Title from "@/components/Title/Title.vue";
+export default {
+    components: {
+    Title,
+  },
+};
 </script>
 
 <style lang="less" scoped></style>

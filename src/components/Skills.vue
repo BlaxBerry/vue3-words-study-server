@@ -1,10 +1,13 @@
 <template>
   <div class="skills">
     <!-- title -->
-    <h2 class="title">Skills</h2>
-    <h3 class="title2">について</h3>
-    <hr />
-    <p class="center-align">Skills</p>
+    <Title>
+      <h1 slot="title1" class="title1">Skills</h1>
+      <h2 slot="title2" class="title2">スキルについて</h2>
+    </Title>
+    <!-- desc -->
+    <p class="center-align">about my skills.......</p>
+    <br />
 
     <!-- contnet -->
     <CardSkill></CardSkill>
@@ -33,6 +36,7 @@
 </template>
 
 <script>
+import Title from "@/components/Title/Title.vue";
 import CardSkill from "@/components/CardSkill.vue";
 // // JSON 数据
 // import frontEndJson from "@/assets/json/frontEnd.json";
@@ -56,6 +60,7 @@ export default {
     };
   },
   components: {
+    Title,
     CardSkill,
   },
 };

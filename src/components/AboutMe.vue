@@ -1,12 +1,14 @@
 <template>
   <div class="about">
     <!-- title -->
-    <h2 class="title">About Me</h2>
-    <h3 class="title2">自分について</h3>
+    <Title>
+       <h1 slot="title1" class="title1">About Me</h1>
+       <h2 slot="title2" class="title2">自分について</h2>
+    </Title>
 
     <!-- contnet -->
     <div>
-        <p class="center-align">About Myself</p>
+      <p class="center-align">About Myself</p>
     </div>
 
     <!-- link -->
@@ -17,7 +19,12 @@
 </template>
 
 <script>
-export default {};
+import Title from "@/components/Title/Title.vue";
+export default {
+  components: {
+    Title,
+  },
+};
 </script>
 
 <style lang="less" scoped></style>

@@ -1,13 +1,22 @@
 <template>
   <div class="works">
     <!-- title -->
-    <h2 class="title">Works</h2>
-    <h3 class="title2">について</h3>
+    <Title>
+      <h1 slot="title1" class="title1">Works</h1>
+      <h2 slot="title2" class="title2">一部の代表作品</h2>
+    </Title>
+    <!-- desc -->
+    <p class="center-align">about my works.......</p>
+    <br>
 
-    <!-- contnet -->
     <!-- PC -->
-    <h4 class="title3">PC</h4>
+    <!-- title -->
+    <Title>
+      <h1 slot="title1" class="title3">PC 端末</h1>
+    </Title>
+    <!-- desc -->
     <p class="center-align">Works</p>
+    <!-- list -->
     <CardWorkPC :list="worksPC"></CardWorkPC>
     <!-- more -->
     <div class="center-align">
@@ -16,8 +25,13 @@
     <br />
 
     <!-- Mobile -->
-    <h4 class="title3">Mobile</h4>
+    <!-- title -->
+    <Title>
+      <h1 slot="title1" class="title3">Mobile 端末</h1>
+    </Title>
+    <!-- desc -->
     <p class="center-align">Works</p>
+    <!-- list -->
     <CardWorkMobile :list="worksMobile"></CardWorkMobile>
     <!-- more -->
     <div class="center-align">
@@ -28,6 +42,7 @@
 </template>
 
 <script>
+import Title from "@/components/Title/Title.vue";
 import CardWorkPC from "@/components/Card/CardWorkPC.vue";
 import CardWorkMobile from "@/components/Card/CardWorkMobile.vue";
 // JSON 数据
@@ -45,6 +60,7 @@ export default {
     };
   },
   components: {
+    Title,
     CardWorkPC,
     CardWorkMobile,
   },
