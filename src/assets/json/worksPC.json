@@ -1,7 +1,7 @@
 [
     {
-        "name": "Wedding Dress",
-        "title": "Static Websit",
+        "name": "Wedding Dress Site",
+        "feature": [],
         "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
         "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress",
         "desc": "This is a PC Static Website for Practicing basic box-model-layout and flexible-layout",
@@ -18,12 +18,15 @@
         ]
     },
     {
-        "name": "Protofilo",
-        "title": "",
+        "name": "Chen's Portfolio",
+        "feature": [
+            "could check more details of my Skills and Works, by clicking picture or link button of each one."
+        ],
         "website": "https://blaxberry.github.io/-Portfolio/",
         "github": "https://github.com/BlaxBerry/-Portfolio",
-        "desc": "This is a SPA (Single Page Application) created according to Vue.js, developed by Vue-Cli, used MediaQuery for Responsive, rendering templates by Local JSON files.",
+        "desc": "This is my Portfolio, a Responsive SPA (Single Page Application) created by Vue.js + Vue-Router, developed by Vue-Cli, rendering data to templates by Local JSON files.",
         "techStack": [
+            "HTML5 + CSS3",
             "Vue.js",
             "Vue-Cli",
             "Vue-Router",
@@ -39,7 +42,7 @@
     },
     {
         "name": "?",
-        "title": "",
+        "feature": [],
         "website": "https://blaxberry.github.io/Mobile-book-shopping/",
         "github": "https://github.com/BlaxBerry/Mobile-book-shopping",
         "desc": [
@@ -57,15 +60,17 @@
         ]
     },
     {
-        "name": "Student Info Management",
-        "title": "",
+        "name": "SSR Student Info Management",
+        "feature": [],
         "website": "",
         "github": "https://github.com/BlaxBerry/SSR-user_info_management",
-        "desc": "SSR (Server Side Rending) created by Node.js, connected to MongoDB, rendering HTML page templates by TemplateEngine art-template.",
+        "desc": "SSR (Server Side Rending) created by Node.js, connected to MongoDB database, according to request URl and method, to send data from databaseto or to render pages by Router, using TemplateEngine art-template to render data in HTML.",
         "techStack": [
             "Node.js",
             "MongoDB",
             "art-template",
+            "route",
+            "serve-static",
             "Bootstraps"
         ],
         "mianPic": "https://d2v9k5u4v94ulw.cloudfront.net/assets/images/7058337/original/5c451532-db01-4337-b8a5-31879079e9d2?1624292495",

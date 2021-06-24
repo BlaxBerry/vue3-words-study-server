@@ -1,7 +1,14 @@
 [
     {
         "name": "SPA Book Shop",
-        "title": "",
+        "feature": [
+            "must Register user's Account at the beginnin.",
+            "must Login Account before using. ( Test Account: andy@qq.com | 123456 )",
+            "could Add Product from detail page.",
+            "could Remove or Change Product's Count in persional Shopping-Cart page.",
+            "Must set user's Retailer before making a Purchase.",
+            "could check Order-List and Status of Products' Transportation, after making a Purchase."
+        ],
         "website": "https://blaxberry.github.io/Mobile-book-shopping/",
         "github": "https://github.com/BlaxBerry/Mobile-book-shopping",
         "desc": "This is a Mobile EC (Electronic Commerce) Web Application, created by Vue.js and VantUI framework, used Vue-Router for SPA (Single Page Application), developed by Vue-Cli, requesting data by Axios from free API.",
@@ -28,11 +35,14 @@
         ]
     },
     {
-        "name": "Player",
-        "title": "",
+        "name": "Music Player",
+        "feature": [
+            "",
+            ""
+        ],
         "website": "",
         "github": "https://github.com/BlaxBerry/vue-music-player",
-        "desc": "This is a SPA (Single Page Application) Player, created by Vue.js and Element-UI framework, requesting data by Axios from Local JSON files( for persiional using).",
+        "desc": "This is a SPA (Single Page Application) Player, created by Vue.js and Element-UI framework, requesting data by Axios from Local JSON files ( for persional using ).",
         "techStack": [
             "Vue.js",
             "Vue-Cli",
@@ -50,15 +60,17 @@
     },
     {
         "name": "Todo List",
-        "title": "",
+        "feature": [
+            "Add, Delete, Search Task List.",
+            "Record Data in LocalStorage."
+        ],
         "website": "https://blaxberry.github.io/JS--TaskList/",
         "github": "https://github.com/BlaxBerry/Mobile-book-shopping",
-        "desc": "This is a Task Management Web Application, recording user`s data by LocalStorage.",
+        "desc": "This is a Web Application about Task List Management, according to Material Design, user's data recorded by LocalStorage.",
         "techStack": [
-            "jQuery",
             "LocalStorage",
-            "materialize",
-            "font-awesome"
+            "Material Framework",
+            "Font Awesome"
         ],
         "mianPic": "https://huntr-assets.s3.amazonaws.com/users/151810189/ddde0ab7-8a48-4573-8b57-61ada72763b5",
         "pics": [

@@ -20,6 +20,16 @@
         </div>
         <br />
 
+        <div class="mask-work-feature">
+          <h4>Function</h4>
+          <ul>
+            <li v-for="(item, index) in workData.feature" :key="index">
+              {{ index + 1 }}. {{ item }}
+            </li>
+          </ul>
+        </div>
+        <br />
+
         <div class="mask-work-techtask">
           <h4>Tech Stack</h4>
           <ul>
