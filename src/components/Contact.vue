@@ -6,46 +6,20 @@
       <h2 slot="title2" class="title2">連絡について</h2>
     </Title>
 
-    <div class="contact-links center-align">
-      <a href="https://twitter.com/chenjiaxu333" target="_blank">
-        <img src="../assets/images/twitter.svg" alt="" />
-      </a>
-
-      <a href="https://github.com/BlaxBerry" target="_blank">
-        <img src="../assets/images/github.svg" alt="" />
-      </a>
-
-      <a href="mailto:chenjiaxu333@gmail.com" target="_blank">
-        <img src="../assets/images/gmail.svg" alt="" />
-      </a>
-    </div>
+    <!-- links -->
+   <ContactLinks></ContactLinks>
   </div>
 </template>
 
 <script>
 import Title from "@/components/Title/Title.vue";
+import ContactLinks from "@/components/ContactLinks/ContactLinks.vue";
 export default {
   components: {
     Title,
+    ContactLinks
   },
 };
 </script>
 
-<style lang="less">
-.contact-links {
-  a {
-    display: inline-block;
-    margin: 1rem;
-    width: 4rem;
-    height: 4rem;
-    img {
-      filter: grayscale(10%);
-      transition: all 0.5s;
-      &:hover {
-        filter: grayscale(0);
-        transform: scale(1.2);
-      }
-    }
-  }
-}
-</style>
+<style lang="less" scoped></style>
