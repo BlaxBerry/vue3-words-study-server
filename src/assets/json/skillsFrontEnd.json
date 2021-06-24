@@ -2,13 +2,13 @@
     {
         "params": "html",
         "name": "HTML",
-        "picSrc": "@/assets/images/html5.png",
-        "desc": "",
+        "picSrc": "html5.svg",
+        "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "@/assets/images/",
+                "picSrc":  "",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -19,13 +19,13 @@
     {
         "params": "css",
         "name": "CSS",
-        "picSrc": "@/assets/images/css3.png",
-        "desc": "",
+        "picSrc":  "css3.svg",
+        "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "@/assets/images/",
+                "picSrc":  "",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -36,13 +36,13 @@
     {
         "params": "javascript",
         "name": "JavaScript",
-        "picSrc": "@/assets/images/javascript.png",
-        "desc": "",
+        "picSrc":  "javascript.svg",
+        "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "@/assets/images/",
+                "picSrc":  "",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -53,13 +53,13 @@
     {
         "params": "jquery",
         "name": "jQuery",
-        "picSrc": "@/assets/images/jQuery.png",
-        "desc": "",
+        "picSrc":  "jquery.svg",
+        "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "@/assets/images/",
+                "picSrc":  "",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -70,13 +70,13 @@
     {
         "params": "less",
         "name": "Less",
-        "picSrc": "@/assets/images/less.png",
-        "desc": "",
+        "picSrc":  "less.svg",
+        "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "@/assets/images/",
+                "picSrc":  "",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -87,13 +87,13 @@
     {
         "params": "sass",
         "name": "Sass",
-        "picSrc": "@/assets/images/sass.png",
-        "desc": "",
+        "picSrc":  "sass.svg",
+        "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "@/assets/images/",
+                "picSrc":  "",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -104,13 +104,13 @@
     {
         "params": "react",
         "name": "React",
-        "picSrc": "@/assets/images/React.png",
-        "desc": "",
+        "picSrc":  "react.svg",
+        "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "@/assets/images/",
+                "picSrc":  "",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -121,13 +121,13 @@
     {
         "params": "vue",
         "name": "Vue",
-        "picSrc": "@/assets/images/vue.png",
-        "desc": "",
+        "picSrc":  "vue.svg",
+        "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc": "@/assets/images/",
+                "picSrc":  "",
                 "desc": [],
                 "website": "",
                 "github": ""

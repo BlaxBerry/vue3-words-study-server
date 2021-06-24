@@ -12,7 +12,6 @@
 
     <!-- session title3 分类标题-->
     <slot name="title3"></slot>
-    <br />
   </div>
 </template>
 
@@ -28,4 +27,8 @@ export default {
 };
 </script>
 
-<style lang="less" scoped></style>
+<style lang="less" scoped>
+#title {
+  padding: 4rem 0 2rem;
+}
+</style>

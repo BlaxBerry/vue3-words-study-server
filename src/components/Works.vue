@@ -3,19 +3,24 @@
     <!-- title -->
     <Title>
       <h1 slot="title1" class="title1">Works</h1>
-      <h2 slot="title2" class="title2">一部の代表作品</h2>
+      <h2 slot="title2" class="title2">一部の作品</h2>
     </Title>
     <!-- desc -->
-    <p class="center-align">about my works.......</p>
-    <br>
+    <p class="session">
+      最初は静的なページから知り始めましたが、
+      その後Ajax技術やサーバーやデータベース関連の知識などを日々頑張っており、
+      今まで独自の練習や開発の成果を残してきました。
+      いずれバックエンドまで幅広くスキルアップに取り組んでいきたいと考えています。 
+    </p>
+    <br />
 
     <!-- PC -->
     <!-- title -->
     <Title>
-      <h1 slot="title1" class="title3">PC 端末</h1>
+      <h1 slot="title1" class="title3">- PC 端末 -</h1>
     </Title>
     <!-- desc -->
-    <p class="center-align">Works</p>
+    <p class="center-align"></p>
     <!-- list -->
     <CardWorkPC :list="worksPC"></CardWorkPC>
     <!-- more -->
@@ -27,10 +32,10 @@
     <!-- Mobile -->
     <!-- title -->
     <Title>
-      <h1 slot="title1" class="title3">Mobile 端末</h1>
+      <h1 slot="title1" class="title3">- Mobile 端末 -</h1>
     </Title>
     <!-- desc -->
-    <p class="center-align">Works</p>
+    <p class="center-align"></p>
     <!-- list -->
     <CardWorkMobile :list="worksMobile"></CardWorkMobile>
     <!-- more -->
@@ -67,4 +72,11 @@ export default {
 };
 </script>
 
-<style lang="less" scoped></style>
+<style lang="less" scoped>
+#title {
+  padding: 2rem 0 2rem;
+}
+.session {
+  padding: 0;
+}
+</style>

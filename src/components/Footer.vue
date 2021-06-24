@@ -1,13 +1,16 @@
 <template>
-  <div class="footer">
-    <h1>Footerrrrrr</h1>
+  <div class="footer session">
+    <!-- title -->
+    <Title>
+      <h1 slot="title1" class="title1">Thanks for Watching</h1>
+      <h2 slot="title2" class="title2">
+        最後までご覧頂き、心より感謝致します
+      </h2>
+    </Title>
+
     <!-- desc -->
-    <h3 class="title3">
-      最後までご覧頂き、心より感謝致します。
-    </h3>
-    <br />
     <p>
-      独自の開発しいくうちに、自分の不足も認識しました。
+      独自の開発していくうちに、自分の不足も認識しました。
       今後も必ず深く勉強して改善し、そして専門性を高め、
       一流のエンジニアを目指して、引き続き頑張っていきたいと思います。
       <br />
@@ -28,15 +31,16 @@
 </template>
 
 <script>
-export default {};
+import Title from "@/components/Title/Title.vue";
+export default {
+  components: {
+    Title,
+  },
+};
 </script>
 
 <style lang="less" scoped>
 .footer {
-  padding: 0 10%;
-  p {
-    font-size: 1.3rem;
-  }
   a {
     font-size: 1rem;
   }

@@ -20,6 +20,7 @@ export default {};
 
 <style lang="less">
 .contact-links {
+  margin: 2rem 0;
   a {
     display: inline-block;
     margin: 1rem;

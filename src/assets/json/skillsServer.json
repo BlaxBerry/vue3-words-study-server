@@ -1,9 +1,9 @@
 [
     {
-        "params": "git",
-        "name": "Git",
-        "svg": "/images/git.svg",
-        "desc": "",
+        "params": "nodejs",
+        "name": "Node.js",
+        "picSrc": "nodejs.svg",
+        "desc": "Server",
         "status": "",
         "works": [
             {
@@ -17,10 +17,10 @@
         ]
     },
     {
-        "params": "github",
-        "name": "Github",
-        "svg": "/images/github.svg",
-        "desc": "",
+        "params": "nuxtjs",
+        "name": "Nuxt.js",
+        "picSrc": "nuxtjs.svg",
+        "desc": "Server",
         "status": "",
         "works": [
             {

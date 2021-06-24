@@ -2,8 +2,8 @@
     {
         "params": "mongodb",
         "name": "MongoDB",
-        "svg": "/images/mongodb.svg",
-        "desc": "",
+        "picSrc": "mongodb.svg",
+        "desc": "DataBase",
         "status": "",
         "works": [
             {
@@ -19,8 +19,8 @@
     {
         "params": "postgresql",
         "name": "PostgreSQL",
-        "svg": "/images/postgresql.svg",
-        "desc": "",
+        "picSrc": "postgresql.svg",
+        "desc": "DataBase",
         "status": "",
         "works": [
             {
@@ -36,8 +36,8 @@
     {
         "params": "mysql",
         "name": "MySQL",
-        "svg": "/images/mysql.svg",
-        "desc": "",
+        "picSrc": "mysql.svg",
+        "desc": "DataBase",
         "status": "",
         "works": [
             {

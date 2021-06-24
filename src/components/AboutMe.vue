@@ -7,7 +7,7 @@
     </Title>
 
     <!-- contnet -->
-    <div class="about-card glass-box">
+    <div class="about-card glass-box session">
       <!-- left / top side -->
       <div class="about-card-img">
         <img src="../assets/images/github.svg" alt="" />
@@ -47,23 +47,20 @@ export default {
 
 <style lang="less" scoped>
 .about-me {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  padding-top: 6%;
+  align-items: center;
   height: 100vh;
   width: 100%;
 
   .about-card {
-    position: absolute;
     display: flex;
-    top: 50%;
-    left: 50%;
-    width: 70%;
-    height: 50vh;
-    min-height: 10rem;
-    transform: translate(-50%, -50%);
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 3rem;
     background-color: rgba(250, 250, 250, 0.8);
     // background-color: darkgoldenrod; /////
 
