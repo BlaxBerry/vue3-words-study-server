@@ -33,22 +33,23 @@
 
       <!-- right / bottom -->
       <div class="work-imgs-box">
-        <div class="mask-work-small-imgs-list">
-          <img
-            :src="item"
-            alt=""
+        <ul class="mask-work-small-imgs-list">
+          <li
             v-for="(item, index) in workData.pics"
             :key="index"
             @click="clickSmallImg(item)"
-            class="mask-work-samll-img shadow-box"
-          />
-        </div>
+            class="mask-work-samll-img"
+          >
+            <img :src="item" alt="" />
+          </li>
+        </ul>
 
         <div class="mask-work-big-img">
           <a :href="workData.website" target="_blank">
             <img
               :src="smallPicSr == '' ? workData.mianPic : smallPicSr"
               alt=""
+              class=" shadow-box"
             />
           </a>
         </div>
@@ -130,7 +131,7 @@ export default {
     // 上部 小图列表
     .mask-work-small-imgs-list {
       display: flex;
-      // justify-content: center;
+      justify-content: flex-start;
       align-content: center;
       flex-wrap: wrap;
       padding: 0.5rem;
@@ -138,6 +139,10 @@ export default {
         width: 8rem;
         margin: 0.5rem;
         cursor: pointer;
+        overflow: hidden;
+        img {
+          width: 100%;
+        }
       }
     }
   }
