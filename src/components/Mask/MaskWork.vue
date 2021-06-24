@@ -22,8 +22,10 @@
 
         <div class="mask-work-techtask">
           <h4>Tech Stack</h4>
-          <ul v-for="(item, index) in workData.techStack" :key="index">
-            <li>- {{ item }}</li>
+          <ul>
+            <li v-for="(item, index) in workData.techStack" :key="index">
+              - {{ item }}
+            </li>
           </ul>
         </div>
       </div>
@@ -100,7 +102,6 @@ export default {
   // mask内容部分
   .mask-content {
     display: flex;
-    justify-content: space-around;
     position: fixed;
     top: 5%;
     left: 50%;
@@ -111,12 +112,14 @@ export default {
     background-color: #fff;
     border-radius: 0.5rem;
     overflow-y: scroll;
-    padding: 1.5rem;
+    padding: 2rem 1.5rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
 
     // left / top side
     .work-text-box {
       width: 40%;
-      overflow-wrap: break-word;
     }
     // right / bottom
     .work-imgs-box {
@@ -135,9 +138,6 @@ export default {
         width: 8rem;
         margin: 0.5rem;
         cursor: pointer;
-        img {
-          width: 100%;
-        }
       }
     }
   }

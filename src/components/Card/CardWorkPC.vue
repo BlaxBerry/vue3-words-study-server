@@ -1,26 +1,19 @@
 <template>
   <div>
     <ul class="card-work-container">
-      <li
-        class="card-work"
-        v-for="(item, index) in list"
-        :key="index"
-        @click="clickCard(item)"
-      >
+      <li class="card-work" v-for="(item, index) in list" :key="index">
         <img
           :src="item.mianPic"
           alt=""
           class="shadow-box scale-box grayscale-img"
+          @click="clickCard(item)"
         />
         <div class="card-content">
           <h3 class="center-align"></h3>
           <p class="center-align">{{ item.name }}</p>
-          <!-- mask -->
-          <div class="mask">
-            <!-- link -->
-            <div class="center-align">
-              <router-link to="/works">Show Works Detail -></router-link>
-            </div>
+          <!-- link -->
+          <div class="center-align">
+            <a href="javascript:;" @click="clickCard(item)">Show More Detail</a>
           </div>
         </div>
       </li>
