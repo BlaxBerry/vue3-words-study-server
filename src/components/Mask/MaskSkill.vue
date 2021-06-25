@@ -3,31 +3,43 @@
     <div class="mask-close-btn shadow-box" @click="closeMasWork">X</div>
 
     <div class="mask-content">
-      <h2 class="mask-work-name">{{ skillData.name }}</h2>
-      <br />
-
-      <!-- / -->
+      <!-- Techs -->
       <div class="skill-techs">
         <ul>
-          <li>
-            <img src="../../assets/images/javascript.svg" alt="" />
+          <li class="center-align">
+            <img
+              :src="require(`../../assets/images/${skillData.picSrc}`)"
+              alt=""
+            />
+            <h4>{{ skillData.name }}</h4>
           </li>
-          <li>
-            <img src="../../assets/images/jquery.svg" alt="" />
+          <li
+            v-for="(item, index) in skillData.techs"
+            :key="index"
+            class="center-align"
+          >
+            <img :src="require(`../../assets/images/${item.tagPic}`)" alt="" />
+            <h4>{{ item.name }}</h4>
           </li>
         </ul>
       </div>
 
-      <!-- skill-mask-works-list -->
-      <h4>この技術を使う作品</h4>
-      <!-- pc -->
+      <!-- Desc -->
+
+      <!-- Title -->
+      <h4 class="title3">- この技術を使う作成品 -</h4>
+      <br />
+
+      <!-- Works PC -->
       <div class="skill-works">
+        <p>{{ skillData.worksDesc }}</p>
+        <br />
         <ul>
           <li v-for="(item, index) in skillData.worksPC" :key="index">
             <!-- work pic -->
             <div class="work-pic">
               <img
-                :src="item.picSrc"
+                :src="item.mianPic"
                 alt=""
                 class="shadow-box grayscale-img"
                 @click="clickCard(item)"
@@ -49,9 +61,15 @@
           </li>
         </ul>
       </div>
+
+      <!-- Works Mobile-->
+
       <!-- more -->
-      <h4>Check More</h4>
-      <a href="https://github.com/BlaxBerry" target="_blank">Github</a>
+      <h4 class="title3">
+        - Check More-
+        <br />
+        <a href="https://github.com/BlaxBerry" target="_blank">on Github</a>
+      </h4>
     </div>
   </div>
 </template>
@@ -108,8 +126,15 @@ export default {
     // skill techs pic
     .skill-techs {
       ul {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
         li {
-          width: 6rem;
+          width: 6.5rem;
+          margin: 0 .5rem;
+        }
+        h4 {
+          font-size: 1.3rem;
         }
       }
     }

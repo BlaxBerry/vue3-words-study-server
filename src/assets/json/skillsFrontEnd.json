@@ -5,44 +5,63 @@
         "picSrc": "html5.svg",
         "desc": "Front End",
         "status": "",
+        "techs": [
+            {
+                "tagPic": "css3.svg",
+                "name": "CSS"
+            },
+            {
+                "tagPic": "javascript.svg",
+                "name": "JavaScript"
+            }
+        ],
+        "worksDesc": "最初は静的なページから知り始めましたが、 その後Ajax技術やサーバーやデータベース関連の知識などを日々頑張っています。ここで展示しているのは架空サイトや独自開発です、最初の練習として大手のウェブサイトページの模写も色々いやりましたが、著作権のため、ここで展示していません。",
         "worksPC": [
             {
                 "name": "PinYouGo Shopping",
-                "picSrc": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot1.png",
+                "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot1.png",
                 "desc": "PC Static",
                 "website": "https://blaxberry.github.io/PC-Static-Web-PinYouGoShopping/",
-                "github": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping",
-                "pics": [
-                    "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot1.png",
-                    "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot2.png",
-                    "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot3.png"
-                ]
+                "github": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping"
             },
             {
                 "name": "QingZhu Shopping",
-                "picSrc": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot1.png",
+                "mianPic": "https://pbs.twimg.com/media/E4tBTASUUAU1_C5?format=jpg&name=small",
                 "desc": "PC Static",
                 "website": "https://blaxberry.github.io/PC-Static-Web-QingZhuShopping/",
                 "github": "https://github.com/BlaxBerry/PC-Static-Web-QingZhuShopping",
-                "pics": []
+                "pics": [
+                    "https://pbs.twimg.com/media/E4tBTASUUAU1_C5?format=jpg&name=small",
+                    "https://pbs.twimg.com/media/E4tBTAAVoAEaf-L?format=jpg&name=large",
+                    "https://pbs.twimg.com/media/E4tBTAwVEAABpaX?format=jpg&name=large"
+                ]
             },
             {
-                "name": "PinYouGo Shopping",
-                "picSrc": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot1.png",
-                "desc": "PC Static",
-                "website": "https://blaxberry.github.io/PC-Static-Web-PinYouGoShopping/",
-                "github": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping",
+                "name": "Wedding Dress",
+                "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
+                "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
+                "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress",
                 "pics": [
-                    "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot1.png",
-                    "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot2.png",
-                    "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot3.png"
+                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
+                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/02.png",
+                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/03.png",
+                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/04.png"
+                ]
+            },
+            {
+                "name": "Portofilo Version 2.0",
+                "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/images/mkd1.png",
+                "website": "",
+                "github": "",
+                "pics": [
+                    "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/images/mkd1.png"
                 ]
             }
         ],
         "worksMobile": [
             {
                 "name": "PinYouGo Shopping Site",
-                "picSrc": "https://pbs.twimg.com/media/E2EjAYyVUAIL-iW?format=jpg&name=medium",
+                "mianPic": "https://pbs.twimg.com/media/E2EjAYyVUAIL-iW?format=jpg&name=medium",
                 "desc": "PC Static",
                 "website": "https://blaxberry.github.io/Mobile-Static-Web-ticketsite/",
                 "github": "https://github.com/BlaxBerry/Mobile-Static-Web-ticketsite",
@@ -58,6 +77,20 @@
         "picSrc": "css3.svg",
         "desc": "Front End",
         "status": "",
+        "techs": [
+            {
+                "tagPic": "bootstrap.svg",
+                "name": "Bootstrap"
+            },
+            {
+                "tagPic": "less.svg",
+                "name": "Less"
+            },
+            {
+                "tagPic": "sass.svg",
+                "name": "Sass"
+            }
+        ],
         "works": [
             {
                 "name": "",
@@ -75,6 +108,20 @@
         "picSrc": "javascript.svg",
         "desc": "Front End",
         "status": "",
+        "techs": [
+            {
+                "tagPic": "ajax.svg",
+                "name": "Ajax"
+            },
+            {
+                "tagPic": "nodejs.svg",
+                "name": "Node.js"
+            },
+            {
+                "tagPic": "typescript.svg",
+                "name": "TypeScript"
+            }
+        ],
         "works": [
             {
                 "name": "",
@@ -92,6 +139,16 @@
         "picSrc": "jquery.svg",
         "desc": "Front End",
         "status": "",
+        "techs": [
+            {
+                "tagPic": "javascript.svg",
+                "name": "JavaScript"
+            },
+            {
+                "tagPic": "ajax.svg",
+                "name": "Ajax"
+            }
+        ],
         "works": [
             {
                 "name": "",
@@ -104,28 +161,18 @@
         ]
     },
     {
-        "params": "less",
-        "name": "Less",
-        "picSrc": "less.svg",
+        "params": "typescript",
+        "name": "TypeScript",
+        "picSrc": "typescript.svg",
         "desc": "Front End",
         "status": "",
-        "works": [
+        "techs": [
+            
             {
-                "name": "",
-                "picSrc": "",
-                "desc": [],
-                "website": "",
-                "github": ""
-            },
-            {}
-        ]
-    },
-    {
-        "params": "sass",
-        "name": "Sass",
-        "picSrc": "sass.svg",
-        "desc": "Front End",
-        "status": "",
+                "tagPic": "javascript.svg",
+                "name": "JavaScript"
+            }
+        ],
         "works": [
             {
                 "name": "",
@@ -139,10 +186,20 @@
     },
     {
         "params": "react",
-        "name": "React",
+        "name": "React.js",
         "picSrc": "react.svg",
         "desc": "Front End",
         "status": "",
+        "techs": [
+            {
+                "tagPic": "react.svg",
+                "name": "React-Router-Dom"
+            },
+            {
+                "tagPic": "redux.svg",
+                "name": "Redux"
+            }
+        ],
         "works": [
             {
                 "name": "",
@@ -156,10 +213,28 @@
     },
     {
         "params": "vue",
-        "name": "Vue",
+        "name": "Vue.js",
         "picSrc": "vue.svg",
         "desc": "Front End",
         "status": "",
+        "techs": [
+            {
+                "tagPic": "vue.svg",
+                "name": "Vue-Rouer"
+            },
+            {
+                "tagPic": "vuex.svg",
+                "name": "Vuex"
+            },
+            {
+                "tagPic": "nuxtjs.svg",
+                "name": "Nuxt"
+            },
+            {
+                "tagPic": "echart.svg",
+                "name": "ECharts"
+            }
+        ],
         "works": [
             {
                 "name": "",

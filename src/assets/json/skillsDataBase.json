@@ -5,6 +5,12 @@
         "picSrc": "mongodb.svg",
         "desc": "DataBase",
         "status": "",
+        "techs": [
+            {
+                "tagPic": "nodejs.svg",
+                "name": "Node.js"
+            }
+        ],
         "works": [
             {
                 "name": "",
@@ -22,6 +28,12 @@
         "picSrc": "postgresql.svg",
         "desc": "DataBase",
         "status": "",
+        "techs": [
+            {
+                "tagPic": "nodejs.svg",
+                "name": "Node.js"
+            }
+        ],
         "works": [
             {
                 "name": "",
@@ -39,6 +51,12 @@
         "picSrc": "mysql.svg",
         "desc": "DataBase",
         "status": "",
+        "techs": [
+            {
+                "tagPic": "nodejs.svg",
+                "name": "Node.js"
+            }
+        ],
         "works": [
             {
                 "name": "",

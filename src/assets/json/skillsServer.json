@@ -5,23 +5,16 @@
         "picSrc": "nodejs.svg",
         "desc": "Server",
         "status": "",
-        "works": [
+        "techs": [
             {
-                "name": "",
-                "picSrc": "",
-                "desc": [],
-                "website": "",
-                "github": ""
+                "tagPic": "npm.svg",
+                "name": "npm"
             },
-            {}
-        ]
-    },
-    {
-        "params": "nuxtjs",
-        "name": "Nuxt.js",
-        "picSrc": "nuxtjs.svg",
-        "desc": "Server",
-        "status": "",
+            {
+                "tagPic": "nodejs.svg",
+                "name": "Express.js"
+            }
+        ],
         "works": [
             {
                 "name": "",
