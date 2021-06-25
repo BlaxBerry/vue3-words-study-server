@@ -3,7 +3,7 @@
         "params": "git",
         "name": "Git",
         "picSrc": "git.svg",
-        "desc": "Others",
+        "desc": [],
         "status": "",
         "works": [
             {
@@ -20,7 +20,7 @@
         "params": "github",
         "name": "Github",
         "picSrc": "github.svg",
-        "desc": "Others",
+        "desc": [],
         "status": "",
         "works": [
             {

@@ -10,9 +10,19 @@
       最初は静的なページから知り始めましたが、
       その後Ajax技術やサーバーやデータベース関連の知識などを日々頑張っており、
       今まで独自の練習や開発の成果を残してきました。
-      いずれバックエンドまで幅広くスキルアップに取り組んでいきたいと考えています。 
+      いずれバックエンドまで幅広くスキルアップに取り組んでいきたいと考えています。
     </p>
     <br />
+
+    <!-- Mobile -->
+    <!-- title -->
+    <Title>
+      <h1 slot="title1" class="title3">- Mobile 端末 -</h1>
+    </Title>
+    <!-- desc -->
+    <p class="center-align"></p>
+    <!-- list -->
+    <CardWorkMobile :list="worksMobile"></CardWorkMobile>
 
     <!-- PC -->
     <!-- title -->
@@ -29,20 +39,6 @@
     </div>
     <br />
 
-    <!-- Mobile -->
-    <!-- title -->
-    <Title>
-      <h1 slot="title1" class="title3">- Mobile 端末 -</h1>
-    </Title>
-    <!-- desc -->
-    <p class="center-align"></p>
-    <!-- list -->
-    <CardWorkMobile :list="worksMobile"></CardWorkMobile>
-    <!-- more -->
-    <div class="center-align">
-      <router-link to="/works">More Works</router-link>
-    </div>
-    <br />
   </div>
 </template>
 
@@ -78,5 +74,6 @@ export default {
 }
 .session {
   padding: 0;
+  font-style: normal;
 }
 </style>

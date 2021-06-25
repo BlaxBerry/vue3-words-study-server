@@ -11,11 +11,11 @@
     <!-- About Me-->
     <AboutMe></AboutMe>
 
-    <!-- Skills -->
-    <Skills></Skills>
-
     <!-- Works -->
     <Works></Works>
+
+    <!-- Skills -->
+    <Skills></Skills>
 
     <!-- Contact -->
     <Contact></Contact>
@@ -27,7 +27,6 @@
     <MaskWork :workData="cardWorkData" v-if="maskWorkFlag"></MaskWork>
     <!-- MaskWork -->
     <MaskSkill :skillData="cardSkillData" v-if="maskSkillFlag"></MaskSkill>
-
   </div>
 </template>
 
@@ -50,10 +49,10 @@ export default {
     return {
       // mask show/disapper flag
       maskWorkFlag: false,
-      maskSkillFlag:false,
+      maskSkillFlag: false,
       // card is clicked then send work data to here
       cardWorkData: {},
-      cardSkillData:{}
+      cardSkillData: {},
     };
   },
   components: {

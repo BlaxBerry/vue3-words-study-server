@@ -50,11 +50,11 @@ export default {
   flex-wrap: wrap;
 
   .card-skill {
-    padding: 1rem;
-    width: 7.5rem;
+    margin: 1rem;
     font-size: 0.3rem;
     cursor: pointer;
     img {
+      width: 7rem;
       transition: all 0.5s;
     }
     &:hover {

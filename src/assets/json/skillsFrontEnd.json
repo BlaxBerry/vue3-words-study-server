@@ -3,7 +3,11 @@
         "params": "html",
         "name": "HTML",
         "picSrc": "html5.svg",
-        "desc": "Front End",
+        "desc": [
+            "静的なWebページ開発ができます。",
+            "サーバーにリクエストし、動的に画面をレンダリングすることができます。",
+            "CSSやJavaScriptなどを使い、インタラクティブにすることができます。"
+        ],
         "status": "",
         "techs": [
             {
@@ -47,6 +51,17 @@
                     "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/03.png",
                     "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/04.png"
                 ]
+            }, {
+                "name": "SPA Music Player",
+                "github": "https://github.com/BlaxBerry/vue-music-player",
+                "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mkPC1.png"
+            },
+            {
+                "name": "LocalStorage TodoList",
+                "mianPic": "https://pbs.twimg.com/media/EuRg8zRVgAQMwVi?format=png&name=small",
+                "desc": "PC Static",
+                "website": "",
+                "github": "https://github.com/BlaxBerry/JS--todoList"
             },
             {
                 "name": "Portofilo Version 2.0",
@@ -75,7 +90,13 @@
         "params": "css",
         "name": "CSS",
         "picSrc": "css3.svg",
-        "desc": "Front End",
+        "desc": [
+            "レスポンシブレイアウト開発ができます",
+            "Animationでインタラクティブできます。",
+            "MediaQueryでレスポンシブデザインができます。",
+            "Bootstrapなどのフレームワークが使えます。",
+            "SassやLessなど、CSSプリプロセッサが使えます。"
+        ],
         "status": "",
         "techs": [
             {
@@ -91,22 +112,39 @@
                 "name": "Sass"
             }
         ],
-        "works": [
+        "worksPC": [
             {
-                "name": "",
-                "picSrc": "",
-                "desc": [],
+                "name": "Digital Clock",
+                "mianPic": "https://github.com/BlaxBerry/Demo_CSS/raw/master/Digital_clock/screenshot.png",
+                "desc": "",
                 "website": "",
-                "github": ""
+                "github": "https://github.com/BlaxBerry/Demo_CSS/tree/master/Digital_clock"
             },
-            {}
+            {
+                "name": "Running Bear Animation",
+                "mianPic": "https://github.com/BlaxBerry/Demo_CSS/raw/master/running_bear/screenshot.png",
+                "desc": "",
+                "website": "",
+                "github": "https://github.com/BlaxBerry/Demo_CSS/tree/master/running_bear"
+            },
+            {
+                "name": "SSR Student Info Management",
+                "github": "https://github.com/BlaxBerry/SSR-user_info_management",
+                "mianPic": "https://d2v9k5u4v94ulw.cloudfront.net/assets/images/7058337/original/5c451532-db01-4337-b8a5-31879079e9d2?1624292495"
+            }
         ]
     },
     {
         "params": "javascript",
         "name": "JavaScript",
         "picSrc": "javascript.svg",
-        "desc": "Front End",
+        "desc": [
+            "ES6+",
+            "AsyncyやPromise",
+            "classやモジュール開発",
+            "AjaxやFetchリクエストして、ページをレンダリングうることができます。",
+            "引き続き強化中です..."
+        ],
         "status": "",
         "techs": [
             {
@@ -137,7 +175,10 @@
         "params": "jquery",
         "name": "jQuery",
         "picSrc": "jquery.svg",
-        "desc": "Front End",
+        "desc": [
+            "基礎APIやAnimationなどでインタラクティブできます。",
+            "AjaxやJSONPでリクエストして、ページをレンダリングすることができます。"
+        ],
         "status": "",
         "techs": [
             {
@@ -149,25 +190,54 @@
                 "name": "Ajax"
             }
         ],
-        "works": [
+        "worksPC": [
             {
-                "name": "",
-                "picSrc": "",
-                "desc": [],
+                "name": "QingZhu Shopping",
+                "mianPic": "https://pbs.twimg.com/media/E4tBTASUUAU1_C5?format=jpg&name=small",
+                "desc": "PC Static",
+                "website": "https://blaxberry.github.io/PC-Static-Web-QingZhuShopping/",
+                "github": "https://github.com/BlaxBerry/PC-Static-Web-QingZhuShopping",
+                "pics": [
+                    "https://pbs.twimg.com/media/E4tBTASUUAU1_C5?format=jpg&name=small",
+                    "https://pbs.twimg.com/media/E4tBTAAVoAEaf-L?format=jpg&name=large",
+                    "https://pbs.twimg.com/media/E4tBTAwVEAABpaX?format=jpg&name=large"
+                ]
+            },
+            {
+                "name": "LocalStorage TodoList",
+                "mianPic": "https://pbs.twimg.com/media/EuRg8zRVgAQMwVi?format=png&name=small",
+                "desc": "PC Static",
+                "website": "",
+                "github": "https://github.com/BlaxBerry/JS--todoList"
+            },{
+                "name": "Wedding Dress",
+                "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
+                "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
+                "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress",
+                "pics": [
+                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
+                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/02.png",
+                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/03.png",
+                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/04.png"
+                ]
+            },
+            {
+                "name": "Portofilo Version 1.0",
+                "mianPic": "https://pbs.twimg.com/media/E13hF3OVoAMyw1S?format=jpg&name=medium",
                 "website": "",
                 "github": ""
-            },
-            {}
+            }
         ]
     },
     {
         "params": "typescript",
         "name": "TypeScript",
         "picSrc": "typescript.svg",
-        "desc": "Front End",
+        "desc": [
+            "勉強しています..."
+        ],
         "status": "",
         "techs": [
-            
             {
                 "tagPic": "javascript.svg",
                 "name": "JavaScript"
@@ -188,7 +258,13 @@
         "params": "react",
         "name": "React.js",
         "picSrc": "react.svg",
-        "desc": "Front End",
+        "desc": [
+            "Create React Appが使えます。",
+            "Ant-Designなどのコンポーネントライブラリを利用し、開発することがきます。",
+            "React-Router-Domを使って、SPAシングルページアプリケーションを作成するできます。",
+            "Axiosでリクエストやレンダリングができます。",
+            "Reduxを勉強しています..."
+        ],
         "status": "",
         "techs": [
             {
@@ -215,7 +291,14 @@
         "params": "vue",
         "name": "Vue.js",
         "picSrc": "vue.svg",
-        "desc": "Front End",
+        "desc": [
+            "Vue-Cliが使えます。",
+            "ElementUI、VantUIなどのコンポーネントライブラリを利用し、開発することがきます。",
+            "Vue-Routerを使って、SPAシングルページアプリケーションを作成するできます。",
+            "Axiosでリクエストやレンダリングができます。",
+            "Vuexを勉強しています...",
+            "EChartsを勉強しています..."
+        ],
         "status": "",
         "techs": [
             {
@@ -235,15 +318,12 @@
                 "name": "ECharts"
             }
         ],
-        "works": [
+        "worksPC": [
             {
-                "name": "",
-                "picSrc": "",
-                "desc": [],
-                "website": "",
-                "github": ""
-            },
-            {}
+                "name": "SPA Music Player",
+                "github": "https://github.com/BlaxBerry/vue-music-player",
+                "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mkPC1.png"
+            }
         ]
     }
 ]

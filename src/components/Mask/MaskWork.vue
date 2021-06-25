@@ -125,13 +125,14 @@ export default {
     background-color: #fff;
     border-radius: 0.5rem;
     overflow-y: scroll;
-    padding: 2rem 1.5rem;
+    padding: 2rem 0;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
 
     // left / top side
     .work-text-box {
+      padding: 0 2rem;
       width: 40%;
     }
     // right / bottom

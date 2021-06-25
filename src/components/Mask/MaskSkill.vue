@@ -23,15 +23,24 @@
           </li>
         </ul>
       </div>
+      <br />
 
       <!-- Desc -->
+      <div class="skill-desc">
+        <ul v-for="(item, index) in skillData.desc" :key="index">
+          <li>
+            <p><b>-</b> {{ item }}</p>
+          </li>
+        </ul>
+      </div>
+      <br />
 
       <!-- Title -->
-      <h4 class="title3">- この技術を使う作成品 -</h4>
+      <h4 class="title3">- Example Demo -</h4>
       <br />
 
       <!-- Works PC -->
-      <div class="skill-works">
+      <div class="skill-works-pc">
         <p>{{ skillData.worksDesc }}</p>
         <br />
         <ul>
@@ -41,23 +50,22 @@
               <img
                 :src="item.mianPic"
                 alt=""
-                class="shadow-box grayscale-img"
+                class="shadow-box scale-box"
                 @click="clickCard(item)"
               />
-              <!-- work name -->
+              <!-- mask -->
               <div class="links-mask center-align">
-                <p class="center-align">{{ item.name }}</p>
+                <!-- <p>{{ item.name }}</p> -->
+                <a :href="item.github" @click="clickCard(item)" target="_blank"
+                  >Github Demo</a
+                >
               </div>
             </div>
-            <!-- links -->
-            <div class="center-align links">
-              <a :href="item.github" @click="clickCard(item)" target="_blank"
-                >Github</a
-              >
-              <a :href="item.website" @click="clickCard(item)" target="_blank"
-                >Demo</a
-              >
-            </div>
+            <!-- work name -->
+            <p class="mask-work-name">{{ item.name }}</p>
+
+
+
           </li>
         </ul>
       </div>
@@ -130,17 +138,19 @@ export default {
         justify-content: flex-start;
         flex-wrap: wrap;
         li {
-          width: 6.5rem;
-          margin: 0 .5rem;
-        }
-        h4 {
-          font-size: 1.3rem;
+          margin: 0 0.8rem;
+          img {
+            width: 6rem;
+          }
+          h4 {
+            font-size: 1.3rem;
+          }
         }
       }
     }
 
     // skill works
-    .skill-works {
+    .skill-works-pc {
       ul {
         display: flex;
         flex-direction: row;
@@ -153,11 +163,6 @@ export default {
           width: 30%; //////////////////////
           cursor: pointer;
           // links
-          .links {
-            a {
-              margin: 0 0.5rem;
-            }
-          }
           .work-pic {
             position: relative;
             // mask
@@ -167,11 +172,13 @@ export default {
               left: 0;
               right: 0;
               width: 100%;
-              padding: 1px 0;
+              padding: 1rem;
               background-color: rgba(0, 0, 0, 0.8);
               transform: scale(0);
               transition: all 1s;
-              color: white;
+              a {
+                color: white;
+              }
             }
           }
           &:hover {
@@ -188,6 +195,11 @@ export default {
     font-style: normal;
     // word-wrap: break-word;
     // word-break: break-all;
+  }
+  .mask-work-name {
+    text-align: center;
+    font-style: italic;
+    line-height: 1.6rem;
   }
 }
 </style>

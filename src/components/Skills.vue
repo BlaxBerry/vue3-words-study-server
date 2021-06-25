@@ -16,11 +16,15 @@
     </p>
     <br />
 
+    <p class="center-align showdetail">
+      <b>( Click the picture of skill to Check More Details )</b>
+    </p>
+
     <!-- 1. front-end -->
     <Title>
       <h3 slot="title3" class="title3">- Front End -</h3>
     </Title>
-    <p class="center-align">Click the picture to Check More Details</p>
+    <!-- <p class="center-align">Click the picture to Check More Details</p> -->
     <!-- list -->
     <CardSkill :list="frondEnd"></CardSkill>
 
@@ -28,7 +32,7 @@
     <Title>
       <h3 slot="title3" class="title3">- Server Side -</h3>
     </Title>
-    <p class="center-align">Click the picture to Check More Details</p>
+    <!-- <p class="center-align">Click the picture to Check More Details</p> -->
     <!-- list -->
     <CardSkill :list="serverSide"></CardSkill>
 
@@ -36,7 +40,7 @@
     <Title>
       <h3 slot="title3" class="title3">- Database -</h3>
     </Title>
-    <p class="center-align">Click the picture to Check More Details</p>
+    <!-- <p class="center-align">Click the picture to Check More Details</p> -->
     <!-- list -->
     <CardSkill :list="dataBase"></CardSkill>
 
@@ -44,14 +48,13 @@
     <Title>
       <h3 slot="title3" class="title3">- Others -</h3>
     </Title>
-    <p class="center-align">Click the picture to Check More Details</p>
+    <!-- <p class="center-align">Click the picture to Check More Details</p> -->
     <!-- list -->
     <CardSkill :list="otherSkills"></CardSkill>
-
-    <!-- skillDetail -->
-    <div class="center-align">
-      <router-link to="/skills">Show Skills Detail -></router-link>
-    </div>
+    <br />
+    <p class="center-align showdetail">
+      <b>( Click the picture of skill to Check More Details )</b>
+    </p>
   </div>
 </template>
 
@@ -86,4 +89,8 @@ export default {
 };
 </script>
 
-<style lang="less" scoped></style>
+<style lang="less" scoped>
+.showdetail {
+  margin-top: 2rem;
+}
+</style>

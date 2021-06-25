@@ -47,13 +47,13 @@ export default {
   flex-wrap: wrap;
   .card-work {
     position: relative;
-    width: 200px;
-    width: 20rem;
+    width: 160px;
+    width: 16rem;
     // background-color: antiquewhite;
-    margin: 1rem 2rem;
+    margin: 1.2rem;
     cursor: pointer;
     .card-content {
-      padding: 1rem 0 2rem;
+      padding: 1rem 0;
     }
   }
 }

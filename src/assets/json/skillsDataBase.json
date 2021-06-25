@@ -3,7 +3,11 @@
         "params": "mongodb",
         "name": "MongoDB",
         "picSrc": "mongodb.svg",
-        "desc": "DataBase",
+        "desc": [
+            "基礎的なデータを操作ができます。",
+            "MongoDB Compasshツールが使えます。",
+            "Node.jsで接続してデータを操作し、APIサーバー開発できます。"
+        ],
         "status": "",
         "techs": [
             {
@@ -11,22 +15,23 @@
                 "name": "Node.js"
             }
         ],
-        "works": [
+        "worksPC": [
             {
-                "name": "",
-                "picSrc": "",
-                "desc": [],
-                "website": "",
-                "github": ""
-            },
-            {}
+                "name": "SSR Student Info Management",
+                "github": "https://github.com/BlaxBerry/SSR-user_info_management",
+                "mianPic": "https://d2v9k5u4v94ulw.cloudfront.net/assets/images/7058337/original/5c451532-db01-4337-b8a5-31879079e9d2?1624292495"
+            }
         ]
     },
     {
         "params": "postgresql",
         "name": "PostgreSQL",
         "picSrc": "postgresql.svg",
-        "desc": "DataBase",
+        "desc": [
+            "SQL言語で基礎的なデータを操作ができます。",
+            "MySQLWorkBenchツールが使えます",
+            "Node.jsで接続してデータを操作し、APIサーバー開発できます。"
+        ],
         "status": "",
         "techs": [
             {
@@ -34,22 +39,23 @@
                 "name": "Node.js"
             }
         ],
-        "works": [
+        "worksPC": [
             {
-                "name": "",
-                "picSrc": "",
-                "desc": [],
-                "website": "",
-                "github": ""
-            },
-            {}
+                "name": "SSR Student Info Management",
+                "github": "https://github.com/BlaxBerry/SSR-user_info_management",
+                "mianPic": "https://d2v9k5u4v94ulw.cloudfront.net/assets/images/7058337/original/5c451532-db01-4337-b8a5-31879079e9d2?1624292495"
+            }
         ]
     },
     {
         "params": "mysql",
         "name": "MySQL",
         "picSrc": "mysql.svg",
-        "desc": "DataBase",
+        "desc": [
+            "SQL言語で基礎的なデータを操作ができます。",
+            "MySQLWorkBenchツールが使えます。",
+            "Node.jsで接続してデータを操作し、APIサーバー開発できます。"
+        ],
         "status": "",
         "techs": [
             {
@@ -57,15 +63,12 @@
                 "name": "Node.js"
             }
         ],
-        "works": [
+        "worksPC": [
             {
-                "name": "",
-                "picSrc": "",
-                "desc": [],
-                "website": "",
-                "github": ""
-            },
-            {}
+                "name": "SSR Student Info Management",
+                "github": "https://github.com/BlaxBerry/SSR-user_info_management",
+                "mianPic": "https://d2v9k5u4v94ulw.cloudfront.net/assets/images/7058337/original/5c451532-db01-4337-b8a5-31879079e9d2?1624292495"
+            }
         ]
     }
 ]
