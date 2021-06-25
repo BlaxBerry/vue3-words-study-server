@@ -14,17 +14,19 @@
         <br />
 
         <div class="mask-work-links">
-          <h4>Links</h4>
+          <h4>Check Links</h4>
           <a :href="workData.github" target="_blank">——>GitHub Code!!!</a><br />
           <a :href="workData.website" target="_blank">——>Demo!!!</a>
         </div>
         <br />
 
         <div class="mask-work-feature">
-          <h4>Function</h4>
+          <h4>Function & Descriptoin</h4>
           <ul>
             <li v-for="(item, index) in workData.feature" :key="index">
-              {{ index + 1 }}. {{ item }}
+              <p>
+                <b>{{ index + 1 }}.</b> {{ item }}
+              </p>
             </li>
           </ul>
         </div>
@@ -34,7 +36,7 @@
           <h4>Tech Stack</h4>
           <ul>
             <li v-for="(item, index) in workData.techStack" :key="index">
-              - {{ item }}
+              <p><b> - </b>{{ item }}</p>
             </li>
           </ul>
         </div>
@@ -80,7 +82,7 @@ export default {
   methods: {
     // click to close the mask blcok of work data
     closeMasWork() {
-      this.$parent._data.maskFlag = false;
+      this.$parent._data.maskWorkFlag = false;
     },
     // click small img of list  tab change big img src
     clickSmallImg(item) {
@@ -155,6 +157,13 @@ export default {
         }
       }
     }
+  }
+
+  p {
+    line-height: 2.6rem;
+    font-style: normal;
+    // word-wrap: break-word;
+    // word-break: break-all;
   }
 }
 </style>

@@ -3,7 +3,7 @@
     <!-- title -->
     <Title>
       <h1 slot="title1" class="title1">Thanks for Watching</h1>
-      <h2 slot="title2" class="title2">
+      <h2 slot="title3" class="title3">
         最後までご覧頂き、心より感謝致します
       </h2>
     </Title>

@@ -13,7 +13,6 @@
       フロントエンドからバックエンドまで、幅広くスキルアップに取り組んでいきたいと考えています。
       スキルに対する理解が浅く、専門性の低さも認識していますが、
       必ず引き続き勉強し、少しずつ専門性を高めて行きたいと思います。
-      
     </p>
     <br />
 
@@ -21,6 +20,7 @@
     <Title>
       <h3 slot="title3" class="title3">- Front End -</h3>
     </Title>
+    <p class="center-align">Click the picture to Check More Details</p>
     <!-- list -->
     <CardSkill :list="frondEnd"></CardSkill>
 
@@ -28,6 +28,7 @@
     <Title>
       <h3 slot="title3" class="title3">- Server Side -</h3>
     </Title>
+    <p class="center-align">Click the picture to Check More Details</p>
     <!-- list -->
     <CardSkill :list="serverSide"></CardSkill>
 
@@ -35,6 +36,7 @@
     <Title>
       <h3 slot="title3" class="title3">- Database -</h3>
     </Title>
+    <p class="center-align">Click the picture to Check More Details</p>
     <!-- list -->
     <CardSkill :list="dataBase"></CardSkill>
 
@@ -42,6 +44,7 @@
     <Title>
       <h3 slot="title3" class="title3">- Others -</h3>
     </Title>
+    <p class="center-align">Click the picture to Check More Details</p>
     <!-- list -->
     <CardSkill :list="otherSkills"></CardSkill>
 

@@ -24,7 +24,10 @@
     <Footer></Footer>
 
     <!-- MaskWork -->
-    <MaskWork :workData="cardWorkData" v-if="maskFlag"></MaskWork>
+    <MaskWork :workData="cardWorkData" v-if="maskWorkFlag"></MaskWork>
+    <!-- MaskWork -->
+    <MaskSkill :skillData="cardSkillData" v-if="maskSkillFlag"></MaskSkill>
+
   </div>
 </template>
 
@@ -39,15 +42,18 @@ import Works from "@/components/Works.vue";
 import Contact from "@/components/Contact.vue";
 import Footer from "@/components/Footer.vue";
 import MaskWork from "@/components/Mask/MaskWork.vue";
+import MaskSkill from "@/components/Mask/MaskSkill.vue";
 
 export default {
   name: "Home",
   data() {
     return {
-      // mask work detail data flag
-      maskFlag: false,
-      // card Work is clicked then send work data to here
+      // mask show/disapper flag
+      maskWorkFlag: false,
+      maskSkillFlag:false,
+      // card is clicked then send work data to here
       cardWorkData: {},
+      cardSkillData:{}
     };
   },
   components: {
@@ -60,6 +66,7 @@ export default {
     Contact,
     Footer,
     MaskWork,
+    MaskSkill,
   },
 };
 </script>

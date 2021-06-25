@@ -5,27 +5,63 @@
         "picSrc": "html5.svg",
         "desc": "Front End",
         "status": "",
-        "works": [
+        "worksPC": [
             {
-                "name": "",
-                "picSrc":  "",
-                "desc": [],
-                "website": "",
-                "github": ""
+                "name": "PinYouGo Shopping",
+                "picSrc": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot1.png",
+                "desc": "PC Static",
+                "website": "https://blaxberry.github.io/PC-Static-Web-PinYouGoShopping/",
+                "github": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping",
+                "pics": [
+                    "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot1.png",
+                    "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot2.png",
+                    "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot3.png"
+                ]
             },
-            {}
+            {
+                "name": "QingZhu Shopping",
+                "picSrc": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot1.png",
+                "desc": "PC Static",
+                "website": "https://blaxberry.github.io/PC-Static-Web-QingZhuShopping/",
+                "github": "https://github.com/BlaxBerry/PC-Static-Web-QingZhuShopping",
+                "pics": []
+            },
+            {
+                "name": "PinYouGo Shopping",
+                "picSrc": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot1.png",
+                "desc": "PC Static",
+                "website": "https://blaxberry.github.io/PC-Static-Web-PinYouGoShopping/",
+                "github": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping",
+                "pics": [
+                    "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot1.png",
+                    "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot2.png",
+                    "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot3.png"
+                ]
+            }
+        ],
+        "worksMobile": [
+            {
+                "name": "PinYouGo Shopping Site",
+                "picSrc": "https://pbs.twimg.com/media/E2EjAYyVUAIL-iW?format=jpg&name=medium",
+                "desc": "PC Static",
+                "website": "https://blaxberry.github.io/Mobile-Static-Web-ticketsite/",
+                "github": "https://github.com/BlaxBerry/Mobile-Static-Web-ticketsite",
+                "pics": [
+                    "https://pbs.twimg.com/media/E2EjAYyVUAIL-iW?format=jpg&name=medium"
+                ]
+            }
         ]
     },
     {
         "params": "css",
         "name": "CSS",
-        "picSrc":  "css3.svg",
+        "picSrc": "css3.svg",
         "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc":  "",
+                "picSrc": "",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -36,13 +72,13 @@
     {
         "params": "javascript",
         "name": "JavaScript",
-        "picSrc":  "javascript.svg",
+        "picSrc": "javascript.svg",
         "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc":  "",
+                "picSrc": "",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -53,13 +89,13 @@
     {
         "params": "jquery",
         "name": "jQuery",
-        "picSrc":  "jquery.svg",
+        "picSrc": "jquery.svg",
         "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc":  "",
+                "picSrc": "",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -70,13 +106,13 @@
     {
         "params": "less",
         "name": "Less",
-        "picSrc":  "less.svg",
+        "picSrc": "less.svg",
         "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc":  "",
+                "picSrc": "",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -87,13 +123,13 @@
     {
         "params": "sass",
         "name": "Sass",
-        "picSrc":  "sass.svg",
+        "picSrc": "sass.svg",
         "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc":  "",
+                "picSrc": "",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -104,13 +140,13 @@
     {
         "params": "react",
         "name": "React",
-        "picSrc":  "react.svg",
+        "picSrc": "react.svg",
         "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc":  "",
+                "picSrc": "",
                 "desc": [],
                 "website": "",
                 "github": ""
@@ -121,13 +157,13 @@
     {
         "params": "vue",
         "name": "Vue",
-        "picSrc":  "vue.svg",
+        "picSrc": "vue.svg",
         "desc": "Front End",
         "status": "",
         "works": [
             {
                 "name": "",
-                "picSrc":  "",
+                "picSrc": "",
                 "desc": [],
                 "website": "",
                 "github": ""
