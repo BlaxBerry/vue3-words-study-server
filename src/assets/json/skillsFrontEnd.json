@@ -59,9 +59,8 @@
             },
             {
                 "name": "Portofilo Version 3.0",
-                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
-                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
-                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png"
             },
             {
                 "name": "Portofilo Version 2.0",
@@ -118,9 +117,8 @@
         "worksPC": [
             {
                 "name": "Portofilo Version 3.0",
-                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
-                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
-                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png"
             },
             {
                 "name": "Portofilo Version 2.0",
@@ -212,24 +210,7 @@
             }
         ],
         "worksPC": [
-            {
-                "name": "Portofilo Version 3.0",
-                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
-                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
-                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
-            },
-            {
-                "name": "Portofilo Version 2.0",
-                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
-                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
-                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
-            },
-            {
-                "name": "Portofilo Version 1.0",
-                "mianPic": "https://pbs.twimg.com/media/E13hF3OVoAMyw1S?format=jpg&name=medium",
-                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
-                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
-            },
+
             {
                 "name": "QingZhu Shopping",
                 "mianPic": "https://pbs.twimg.com/media/E4tBTASUUAU1_C5?format=jpg&name=small",
@@ -247,6 +228,18 @@
                 "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
                 "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
                 "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress"
+            },
+            {
+                "name": "Portofilo Version 2.0",
+                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
+                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
+            },
+            {
+                "name": "Portofilo Version 1.0",
+                "mianPic": "https://pbs.twimg.com/media/E13hF3OVoAMyw1S?format=jpg&name=medium",
+                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
             }
         ]
     },
@@ -344,6 +337,11 @@
                 "name": "SPA Music Player",
                 "github": "https://github.com/BlaxBerry/vue-music-player",
                 "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/pc01.png"
+            },
+            {
+                "name": "Portofilo Version 3.0",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png"
             },
             {
                 "name": "Book Library Management",

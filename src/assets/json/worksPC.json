@@ -34,10 +34,10 @@
             "Less",
             "MediaQuery"
         ],
-        "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
+        "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png",
         "pics": [
-            "",
-            ""
+            "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png",
+            "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask02.png"
         ]
     },
     {
@@ -49,7 +49,7 @@
             " MV Page",
             "MV Play Detail Page"
         ],
-        "website": "",
+        "website": "https://github.com/BlaxBerry/vue-music-player",
         "github": "https://github.com/BlaxBerry/vue-music-player",
         "desc": "This is a SPA (Single Page Application) Player, created by Vue.js and Element-UI framework, requesting data by Axios from Local JSON files ( for persional using ).",
         "techStack": [
