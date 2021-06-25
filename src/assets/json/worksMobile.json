@@ -37,8 +37,11 @@
     {
         "name": "Music Player",
         "feature": [
-            "",
-            ""
+            "Category Page",
+            "Search Page",
+            "List Page",
+            " MV Page",
+            "MV Play Detail Page"
         ],
         "website": "",
         "github": "https://github.com/BlaxBerry/vue-music-player",
@@ -52,10 +55,11 @@
             "Webpack",
             "Less"
         ],
-        "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mkList.png.png",
+        "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mobile01.png",
         "pics": [
-            "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mkList.png.png",
-            "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mkMV.png"
+            "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mobile01.png",
+            "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mobile02.png",
+            "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mobile03.png"
         ]
     },
     {

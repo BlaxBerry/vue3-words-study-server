@@ -6,7 +6,7 @@ Created by Vue.js + Vue-Router, developed by Vue-Cli, rendering data to template
 
 
 ## Links
-https://blaxberry.github.io/-Portfolio/
+https://blaxberry.github.io
 
 
 
@@ -26,7 +26,13 @@ https://blaxberry.github.io/-Portfolio/
 
 - MediaQuery
 
+---
 
+mask
+![](./src/assets/upload/mask01.png)
+![](./src/assets/upload/mask02.png)
+
+---
 
 ## Function & Descriptoin
 

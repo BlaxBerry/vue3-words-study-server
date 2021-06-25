@@ -22,14 +22,13 @@
         "worksDesc": "最初は静的なページから知り始めましたが、 その後Ajax技術やサーバーやデータベース関連の知識などを日々頑張っています。ここで展示しているのは架空サイトや独自開発です、最初の練習として大手のウェブサイトページの模写も色々いやりましたが、著作権のため、ここで展示していません。",
         "worksPC": [
             {
-                "name": "PinYouGo Shopping",
+                "name": "EC PinYouGo Shopping",
                 "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot1.png",
-                "desc": "PC Static",
                 "website": "https://blaxberry.github.io/PC-Static-Web-PinYouGoShopping/",
                 "github": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping"
             },
             {
-                "name": "QingZhu Shopping",
+                "name": "EC QingZhu Shopping",
                 "mianPic": "https://pbs.twimg.com/media/E4tBTASUUAU1_C5?format=jpg&name=small",
                 "desc": "PC Static",
                 "website": "https://blaxberry.github.io/PC-Static-Web-QingZhuShopping/",
@@ -44,17 +43,12 @@
                 "name": "Wedding Dress",
                 "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
                 "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
-                "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress",
-                "pics": [
-                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
-                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/02.png",
-                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/03.png",
-                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/04.png"
-                ]
-            }, {
+                "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress"
+            },
+            {
                 "name": "SPA Music Player",
                 "github": "https://github.com/BlaxBerry/vue-music-player",
-                "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mkPC1.png"
+                "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/pc01.png"
             },
             {
                 "name": "LocalStorage TodoList",
@@ -64,25 +58,34 @@
                 "github": "https://github.com/BlaxBerry/JS--todoList"
             },
             {
+                "name": "Portofilo Version 3.0",
+                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
+                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
+            },
+            {
                 "name": "Portofilo Version 2.0",
-                "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/images/mkd1.png",
-                "website": "",
-                "github": "",
-                "pics": [
-                    "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/images/mkd1.png"
-                ]
+                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
+                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
+            },
+            {
+                "name": "Portofilo Version 1.0",
+                "mianPic": "https://pbs.twimg.com/media/E13hF3OVoAMyw1S?format=jpg&name=medium",
+                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
+            },
+            {
+                "name": "SSR Student Info Management",
+                "github": "https://github.com/BlaxBerry/SSR-user_info_management",
+                "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
             }
         ],
         "worksMobile": [
             {
-                "name": "PinYouGo Shopping Site",
-                "mianPic": "https://pbs.twimg.com/media/E2EjAYyVUAIL-iW?format=jpg&name=medium",
-                "desc": "PC Static",
-                "website": "https://blaxberry.github.io/Mobile-Static-Web-ticketsite/",
-                "github": "https://github.com/BlaxBerry/Mobile-Static-Web-ticketsite",
-                "pics": [
-                    "https://pbs.twimg.com/media/E2EjAYyVUAIL-iW?format=jpg&name=medium"
-                ]
+                "name": "SSR Student Info Management",
+                "github": "https://github.com/BlaxBerry/SSR-user_info_management",
+                "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
             }
         ]
     },
@@ -114,6 +117,24 @@
         ],
         "worksPC": [
             {
+                "name": "Portofilo Version 3.0",
+                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
+                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
+            },
+            {
+                "name": "Portofilo Version 2.0",
+                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
+                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
+            },
+            {
+                "name": "Portofilo Version 1.0",
+                "mianPic": "https://pbs.twimg.com/media/E13hF3OVoAMyw1S?format=jpg&name=medium",
+                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
+            },
+            {
                 "name": "Digital Clock",
                 "mianPic": "https://github.com/BlaxBerry/Demo_CSS/raw/master/Digital_clock/screenshot.png",
                 "desc": "",
@@ -130,7 +151,7 @@
             {
                 "name": "SSR Student Info Management",
                 "github": "https://github.com/BlaxBerry/SSR-user_info_management",
-                "mianPic": "https://d2v9k5u4v94ulw.cloudfront.net/assets/images/7058337/original/5c451532-db01-4337-b8a5-31879079e9d2?1624292495"
+                "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
             }
         ]
     },
@@ -192,40 +213,40 @@
         ],
         "worksPC": [
             {
-                "name": "QingZhu Shopping",
-                "mianPic": "https://pbs.twimg.com/media/E4tBTASUUAU1_C5?format=jpg&name=small",
-                "desc": "PC Static",
-                "website": "https://blaxberry.github.io/PC-Static-Web-QingZhuShopping/",
-                "github": "https://github.com/BlaxBerry/PC-Static-Web-QingZhuShopping",
-                "pics": [
-                    "https://pbs.twimg.com/media/E4tBTASUUAU1_C5?format=jpg&name=small",
-                    "https://pbs.twimg.com/media/E4tBTAAVoAEaf-L?format=jpg&name=large",
-                    "https://pbs.twimg.com/media/E4tBTAwVEAABpaX?format=jpg&name=large"
-                ]
+                "name": "Portofilo Version 3.0",
+                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
+                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
             },
             {
-                "name": "LocalStorage TodoList",
-                "mianPic": "https://pbs.twimg.com/media/EuRg8zRVgAQMwVi?format=png&name=small",
-                "desc": "PC Static",
-                "website": "",
-                "github": "https://github.com/BlaxBerry/JS--todoList"
-            },{
-                "name": "Wedding Dress",
-                "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
-                "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
-                "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress",
-                "pics": [
-                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
-                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/02.png",
-                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/03.png",
-                    "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/04.png"
-                ]
+                "name": "Portofilo Version 2.0",
+                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
+                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
             },
             {
                 "name": "Portofilo Version 1.0",
                 "mianPic": "https://pbs.twimg.com/media/E13hF3OVoAMyw1S?format=jpg&name=medium",
+                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
+            },
+            {
+                "name": "QingZhu Shopping",
+                "mianPic": "https://pbs.twimg.com/media/E4tBTASUUAU1_C5?format=jpg&name=small",
+                "website": "https://blaxberry.github.io/PC-Static-Web-QingZhuShopping/",
+                "github": "https://github.com/BlaxBerry/PC-Static-Web-QingZhuShopping"
+            },
+            {
+                "name": "LocalStorage TodoList",
+                "mianPic": "https://pbs.twimg.com/media/EuRg8zRVgAQMwVi?format=png&name=small",
                 "website": "",
-                "github": ""
+                "github": "https://github.com/BlaxBerry/JS--todoList"
+            },
+            {
+                "name": "Wedding Dress",
+                "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
+                "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
+                "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress"
             }
         ]
     },
@@ -322,7 +343,12 @@
             {
                 "name": "SPA Music Player",
                 "github": "https://github.com/BlaxBerry/vue-music-player",
-                "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mkPC1.png"
+                "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/pc01.png"
+            },
+            {
+                "name": "Book Library Management",
+                "github": "https://github.com/BlaxBerry/SSR-user_info_management",
+                "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
             }
         ]
     }
