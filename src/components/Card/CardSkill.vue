@@ -26,11 +26,15 @@ export default {
     // clicke skill tag jump to SkillDetail page
     clickSkillTag(item) {
       setTimeout(() => {
-        // mask 打开
-        this.$parent.$parent._data.maskSkillFlag = true;
-        // 传递数据给 mask-skill
-        this.$parent.$parent._data.cardSkillData = item;
-        console.log(item);
+        // console.log(item);
+        if (item.status) {
+          // mask 打开
+          this.$parent.$parent._data.maskSkillFlag = true;
+          // 传递数据给 mask-skill
+          this.$parent.$parent._data.cardSkillData = item;
+        } else {
+          return;
+        }
         // this.$router.push({
         //   name: "Skills",
         //   params: item,

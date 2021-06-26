@@ -8,7 +8,7 @@
             "サーバーにリクエストし、動的に画面をレンダリングすることができます。",
             "CSSやJavaScriptなどを使い、インタラクティブにすることができます。"
         ],
-        "status": "",
+        "status": true,
         "techs": [
             {
                 "tagPic": "css3.svg",
@@ -99,7 +99,7 @@
             "Bootstrapなどのフレームワークが使えます。",
             "SassやLessなど、CSSプリプロセッサが使えます。"
         ],
-        "status": "",
+        "status": true,
         "techs": [
             {
                 "tagPic": "bootstrap.svg",
@@ -164,7 +164,7 @@
             "AjaxやFetchリクエストして、ページをレンダリングうることができます。",
             "引き続き強化中です..."
         ],
-        "status": "",
+        "status": true,
         "techs": [
             {
                 "tagPic": "ajax.svg",
@@ -198,7 +198,7 @@
             "基礎APIやAnimationなどでインタラクティブできます。",
             "AjaxやJSONPでリクエストして、ページをレンダリングすることができます。"
         ],
-        "status": "",
+        "status": true,
         "techs": [
             {
                 "tagPic": "javascript.svg",
@@ -210,7 +210,6 @@
             }
         ],
         "worksPC": [
-
             {
                 "name": "QingZhu Shopping",
                 "mianPic": "https://pbs.twimg.com/media/E4tBTASUUAU1_C5?format=jpg&name=small",
@@ -250,7 +249,7 @@
         "desc": [
             "勉強しています..."
         ],
-        "status": "",
+        "status": true,
         "techs": [
             {
                 "tagPic": "javascript.svg",
@@ -279,7 +278,7 @@
             "Axiosでリクエストやレンダリングができます。",
             "Reduxを勉強しています..."
         ],
-        "status": "",
+        "status": true,
         "techs": [
             {
                 "tagPic": "react.svg",
@@ -313,7 +312,7 @@
             "Vuexを勉強しています...",
             "EChartsを勉強しています..."
         ],
-        "status": "",
+        "status": true,
         "techs": [
             {
                 "tagPic": "vue.svg",

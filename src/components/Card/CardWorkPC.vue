@@ -30,10 +30,12 @@ export default {
   methods: {
     // click card send data to Home Component and change mask block falg
     clickCard(item) {
-      // console.log(item);
-      this.$parent.$parent._data.cardWorkData = item;
-      // console.log(this.$parent.$parent._data.cardWorkData);
-      this.$parent.$parent._data.maskWorkFlag = true;
+      setTimeout(() => {
+        // console.log(item);
+        this.$parent.$parent._data.cardWorkData = item;
+        // console.log(this.$parent.$parent._data.cardWorkData);
+        this.$parent.$parent._data.maskWorkFlag = true;
+      }, 200);
     },
   },
 };

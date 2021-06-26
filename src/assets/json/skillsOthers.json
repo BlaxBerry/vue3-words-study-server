@@ -4,7 +4,7 @@
         "name": "Git",
         "picSrc": "git.svg",
         "desc": [],
-        "status": "",
+        "status": false,
         "works": [
             {
                 "name": "",
@@ -21,7 +21,7 @@
         "name": "Github",
         "picSrc": "github.svg",
         "desc": [],
-        "status": "",
+        "status": false,
         "works": [
             {
                 "name": "",

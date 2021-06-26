@@ -12,7 +12,7 @@
             "MongoDB、MySQL、PostgreSQLに接続し、APIサーバー開発ができます。",
             "Koaを勉強しています。"
         ],
-        "status": "",
+        "status": true,
         "techs": [
             {
                 "tagPic": "npm.svg",

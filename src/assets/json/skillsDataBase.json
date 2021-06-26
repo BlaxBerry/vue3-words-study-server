@@ -8,7 +8,7 @@
             "MongoDB Compasshツールが使えます。",
             "Node.jsで接続してデータを操作し、APIサーバー開発できます。"
         ],
-        "status": "",
+        "status": true,
         "techs": [
             {
                 "tagPic": "nodejs.svg",
@@ -32,7 +32,7 @@
             "MySQLWorkBenchツールが使えます",
             "Node.jsで接続してデータを操作し、APIサーバー開発できます。"
         ],
-        "status": "",
+        "status": true,
         "techs": [
             {
                 "tagPic": "nodejs.svg",
@@ -56,7 +56,7 @@
             "MySQLWorkBenchツールが使えます。",
             "Node.jsで接続してデータを操作し、APIサーバー開発できます。"
         ],
-        "status": "",
+        "status": true,
         "techs": [
             {
                 "tagPic": "nodejs.svg",
