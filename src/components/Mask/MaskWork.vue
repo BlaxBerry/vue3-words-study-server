@@ -1,5 +1,5 @@
 <template>
-  <div class="mask-work" @click.self="closeMasWork">
+  <div class="mask-work bgkclolr-box" @click.self="closeMasWork">
     <div class="mask-content shadow-box">
       <!-- close btn -->
       <div class="mask-close-btn shadow-box" @click="closeMasWork">X</div>

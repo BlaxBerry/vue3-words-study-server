@@ -1,5 +1,5 @@
 <template>
-  <div class="works">
+  <div class="works bgkclolr-box">
     <!-- title -->
     <Title>
       <h1 slot="title1" class="title1">Works</h1>

@@ -1,7 +1,7 @@
 <template>
   <div class="top">
     <!-- card -->
-    <div class="top-card glass-box session">
+    <div class="top-card glass-box desc">
       <!-- title -->
       <Title>
         <h1 slot="title1" class="title1">Wellcome</h1>
@@ -11,7 +11,7 @@
         <b>
           <vue-typer
             :text="[
-              'Hello, I am Chen.\nan enthusiastic guy dreaming to be a great IT Enginner.\nLove Coding Love black screen, Learing Fighting everyday.',
+              'Hello, I am Chen.\nan enthusiastic guy dreaming to be a IT Enginner.\nLove Coding Love black screen, Learing Fighting everyday.',
             ]"
             class="top-text"
             :repeat="0"
@@ -41,10 +41,20 @@ export default {
 .top {
   height: 100vh;
   width: 100%;
-  background: url(../../assets/images/bgk01.jpg) center;
-  background-size: cover;
-  background-attachment: fixed;
   position: relative;
+  // for ios cannot read background-attachement
+  &&:after {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background: url(../../assets/images/bgk01.jpg) center no-repeat;
+    background-size: cover;
+  }
 
   .top-card {
     position: absolute;
@@ -52,8 +62,8 @@ export default {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 3rem;
-    height: 22rem;
-    min-height: 22rem;
+    height: 27rem;
+    min-height: 27rem;
     // title
     #title {
       position: absolute;
@@ -69,8 +79,12 @@ export default {
     }
     // texte
     .top-card-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       width: 100%;
-      padding: 1rem;
+      padding: 4rem;
       z-index: 2;
       b {
         min-height: 10rem;

@@ -1,5 +1,5 @@
 <template>
-  <div class="skills">
+  <div class="skills session whiteText">
     <!-- title -->
     <Title>
       <h1 slot="title1" class="title1">Skills</h1>
@@ -8,12 +8,12 @@
 
     <!-- desc -->
     <div class="desc">
-      <p>
+      <b>
         今まで身に付いているスキルは主にフロントエンドですが、
         その不足も認識していますが、挑戦して開発経験を積んだ上で、
         フロントエンドに関するスキルを幅広くスキルアップして、
         いずれバックエンドまで幅広くスキルアップに取り組んでいきたいと考えています。
-      </p>
+      </b>
     </div>
     <br />
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div class="contact bgkclolr-box session">
     <!-- title -->
     <Title>
       <h1 slot="title1" class="title1">Contact</h1>

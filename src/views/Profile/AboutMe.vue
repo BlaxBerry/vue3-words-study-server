@@ -1,5 +1,5 @@
 <template>
-  <div class="about-me">
+  <div class="about-me bgkclolr-box">
     <!-- contnet -->
     <div class="about-card glass-box session">
       <!-- left / top side -->
@@ -57,6 +57,8 @@ export default {
     justify-content: center;
     align-items: center;
     position: relative;
+    width: 90%;
+    max-width: 90%;
     padding: 3rem;
     background-color: rgba(250, 250, 250, 0.8);
 

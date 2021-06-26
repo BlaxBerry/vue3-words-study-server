@@ -1,5 +1,5 @@
 <template>
-  <div id="profile">
+  <div id="profile bgkclolr-box blackText ">
     <!-- title -->
     <Title>
       <h1 slot="title1" class="title1">{{ this.$route.name }}</h1>
@@ -49,4 +49,6 @@ export default {
 };
 </script>
 
-<style lang="less" scoped></style>
+<style lang="less" scoped>
+
+</style>

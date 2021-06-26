@@ -1,5 +1,9 @@
 @mainTextColor: #2c3e50;
 @mainTextColor-Active: #42b983;
+// 无背景色盒子 文字色
+@noBgkClorText: white;
+// 有背景色盒子 文字色
+@BgkClorText: #2c3e50;
 
 * {
   padding: 0;
@@ -23,23 +27,11 @@ img {
   width: 100%;
 }
 a {
-  color: @mainTextColor;
   text-decoration: none;
 }
 li {
   list-style: none;
 }
-
-// only for English
-// p,
-// b {
-  // text-align: inter-ideograph;
-  // text-align: justify;
-  // word-break: keep-all;
-  // word-wrap: break-word;
-  // white-space: pre-wrap;
-// }
-
 
 // 主标题
 .title1 {
@@ -97,20 +89,48 @@ li {
   background-color: rgba(250, 250, 250, 0.6);
 }
 
-// 背景图盒子
-.bgk-pic-box {
-  background-color: @mainTextColor-Active;
-  // background: -webkit-linear-gradient(left, rgb(216,23,35), rgb(27,67,78));
-  // background: url(../upload/logo.png) center;
-  // background-attachment: fixed;
-  // background-size: cover;
+// 白色背景色盒子
+.bgkclolr-box {
+  background-color: white;
 }
 
-// 主体大盒子
+// 白字
+.whiteText {
+  p,
+  b,
+  a,
+  li,
+  .title1,
+  .title2,
+  .title3,h4 {
+    color: white !important;
+  }
+}
+
+// 黑字
+.blackText {
+  p,
+  b,
+  li,
+  a,
+  h4,
+  .title1,
+  .title2,
+  .title3 {
+    color: #2c3e50 !important;
+  }
+}
+
+// 主体盒子
 .session {
   margin: 0 auto;
-  padding: 4rem 0;
-  // mediaquery
+  padding: 2rem 0;
+  color: #2c3e50;
+  .title1,
+  .title2,
+  .title3 {
+    font-style: italic !important;
+  }
 }
 
 // 主文字
