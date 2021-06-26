@@ -1,15 +1,19 @@
 <template>
-  <div class="contact session">
+  <div class="contact">
     <!-- title -->
     <Title>
       <h1 slot="title1" class="title1">Contact</h1>
       <h2 slot="title2" class="title2">連絡について</h2>
     </Title>
 
-    <p>
-      このポートフォリオを通して、私のことを少しでも知っていただければ嬉しいと思います。
-      もしこのサイトや私について何かコメントがありましたら、下記のリンクご利用ください。
-    </p>
+    <!-- desc -->
+    <div class="desc">
+      <p>
+        このポートフォリオを通して、私のことを少しでも知っていただければ嬉しいと思います。
+        もしこのサイトや私について何かコメントがありましたら、下記のリンクご利用ください。
+      </p>
+    </div>
+
     <!-- links -->
     <ContactLinks></ContactLinks>
   </div>

@@ -6,12 +6,14 @@
       <h2 slot="title2" class="title2">一部の作品</h2>
     </Title>
     <!-- desc -->
-    <p class="session">
-      最初は静的なページから知り始めましたが、
-      その後Ajax技術やサーバーやデータベース関連の知識などを日々頑張っており、
-      今まで独自の練習や開発の成果を残してきました。
-      いずれバックエンドまで幅広くスキルアップに取り組んでいきたいと考えています。
-    </p>
+    <div class="desc">
+      <p>
+        最初は静的なページから知り始めましたが、
+        その後Ajax技術やサーバーやデータベース関連の知識などを日々頑張っており、
+        今まで独自の練習や開発の成果を残してきました。
+        いずれバックエンドまで幅広くスキルアップに取り組んでいきたいと考えています。
+      </p>
+    </div>
     <br />
 
     <!-- Mobile -->
@@ -38,7 +40,6 @@
       <router-link to="/works">More Works</router-link>
     </div>
     <br />
-
   </div>
 </template>
 
@@ -69,9 +70,6 @@ export default {
 </script>
 
 <style lang="less" scoped>
-#title {
-  padding: 2rem 0 2rem;
-}
 .session {
   padding: 0;
   font-style: normal;

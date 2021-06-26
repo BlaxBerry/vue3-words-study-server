@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    Home Page
-
+    
     <!-- Header -->
     <Header></Header>
 

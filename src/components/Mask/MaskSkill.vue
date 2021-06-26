@@ -1,5 +1,5 @@
 <template>
-  <div class="mask-skill">
+  <div class="mask-skill" @click.self="closeMasWork">
     <div class="mask-content">
       <!-- close btn -->
       <div class="mask-close-btn shadow-box" @click="closeMasWork">X</div>
@@ -28,8 +28,8 @@
 
       <!-- Desc -->
       <div class="skill-desc">
-        <ul v-for="(item, index) in skillData.desc" :key="index">
-          <li>
+        <ul>
+          <li v-for="(item, index) in skillData.desc" :key="index">
             <p><b>-</b> {{ item }}</p>
           </li>
         </ul>
@@ -42,8 +42,11 @@
 
       <!-- Works PC -->
       <div class="skill-works-pc">
-        <p>{{ skillData.worksDesc }}</p>
+        <div class="skill-works-desc">
+          <p>{{ skillData.worksDesc }}</p>
+        </div>
         <br />
+        <!-- pics -->
         <ul>
           <li v-for="(item, index) in skillData.worksPC" :key="index">
             <!-- work pic -->
@@ -153,8 +156,22 @@ export default {
       }
     }
 
+    .skill-desc {
+      ul {
+        li {
+          padding: 0 1rem;
+        }
+      }
+    }
+
     // skill works
     .skill-works-pc {
+      .skill-works-desc {
+        p {
+          width: 90%;
+          margin: 0 auto;
+        }
+      }
       ul {
         display: flex;
         flex-direction: row;

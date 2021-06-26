@@ -10,7 +10,7 @@
     <ContactLinks></ContactLinks>
 
     <!-- contnet -->
-    <div>
+    <div class="content">
       <p class="center-align">Profile Page</p>
     </div>
   </div>

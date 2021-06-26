@@ -22,8 +22,8 @@
         "feature": [
             "could check more details of my Skills and Works, by clicking picture or link button of each one."
         ],
-        "website": "https://blaxberry.github.io/-Portfolio/",
-        "github": "https://github.com/BlaxBerry/-Portfolio",
+        "website": "https://blaxberry.github.io",
+        "github": "https://github.com/BlaxBerry/BlaxBerry.github.io",
         "desc": "This is my Portfolio, a Responsive SPA (Single Page Application) created by Vue.js + Vue-Router, developed by Vue-Cli, rendering data to templates by Local JSON files.",
         "techStack": [
             "HTML5 + CSS3",

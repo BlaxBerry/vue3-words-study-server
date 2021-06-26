@@ -16,10 +16,24 @@
       <!-- right / bottom -->
       <div class="about-card-text">
         <p>
+          <vue-typer
+            :text="[
+              '中国出身、外国語学部卒業、前職は不動産営業。前職でITプログラミングを知り初めて独学して、プログラミングに深く惹かれました。一流なエンジニアという夢を目指して、日々勉強や練習を重ねて頑張って行きます。',
+            ]"
+            class="top-text"
+            :repeat="0"
+            :preTypeDelay="1000"
+            :typeDelay="100"
+            :preEraseDelay="5000"
+            :eraseDelay="2000"
+          ></vue-typer>
+        </p>
+
+        <!-- <p>
           中国出身、外国語学部卒業、前職は不動産営業。
           前職でITプログラミングを知り初めて独学して、プログラミングに深く惹かれました。
           一流なエンジニアという夢を目指して、日々勉強や練習を重ねて頑張って行きます。
-        </p>
+        </p> -->
         <!-- links -->
         <ContactLinks></ContactLinks>
         <!-- Profile -->
@@ -77,10 +91,10 @@ export default {
     .about-card-text {
       width: 50%;
       padding: 1rem;
-      // height: 100%;//////
       // text-align: center;
       // background-color: antiquewhite; //////
       p {
+        min-height: 15rem;
         font-style: normal;
       }
       .contact-links {
