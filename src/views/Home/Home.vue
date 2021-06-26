@@ -1,14 +1,8 @@
 <template>
   <div class="home">
-    
-    <!-- Header -->
-    <Header></Header>
-
-    <!-- About Site-->
-    <AboutSite></AboutSite>
 
     <!-- About Me-->
-    <AboutMe></AboutMe>
+    <TopPic></TopPic>
 
     <!-- Works -->
     <Works></Works>
@@ -35,13 +29,12 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-import Header from "@/components/Header.vue";
-import AboutSite from "@/components/AboutSite.vue";
-import AboutMe from "@/components/AboutMe.vue";
-import Skills from "@/components/Skills.vue";
-import Works from "@/components/Works.vue";
-import Contact from "@/components/Contact.vue";
-import Footer from "@/components/Footer.vue";
+// import AboutSite from "@/components/AboutSite.vue";
+import TopPic from "@/views/Home/TopPic.vue";
+import Skills from "@/views/Home/Skills.vue";
+import Works from "@/views/Home/Works.vue";
+import Contact from "@/views/Home/Contact.vue";
+import Footer from "@/views/Home/Footer.vue";
 import MaskWork from "@/components/Mask/MaskWork.vue";
 import MaskSkill from "@/components/Mask/MaskSkill.vue";
 
@@ -58,10 +51,7 @@ export default {
     };
   },
   components: {
-    // HelloWorld
-    Header,
-    AboutSite,
-    AboutMe,
+    TopPic,
     Skills,
     Works,
     Contact,

@@ -30,6 +30,17 @@ li {
   list-style: none;
 }
 
+// only for English
+// p,
+// b {
+  // text-align: inter-ideograph;
+  // text-align: justify;
+  // word-break: keep-all;
+  // word-wrap: break-word;
+  // white-space: pre-wrap;
+// }
+
+
 // 主标题
 .title1 {
   font-size: 50px;
@@ -82,23 +93,14 @@ li {
 
 // 毛玻璃盒子
 .glass-box {
-  position: relative;
   border-radius: 1.2rem;
-  overflow: hidden;
-  .glass-bgk-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    filter: blur(0.2rem);
-    opacity: 0.9;
-  }
+  background-color: rgba(250, 250, 250, 0.6);
 }
 
 // 背景图盒子
 .bgk-pic-box {
   background-color: @mainTextColor-Active;
+  // background: -webkit-linear-gradient(left, rgb(216,23,35), rgb(27,67,78));
   // background: url(../upload/logo.png) center;
   // background-attachment: fixed;
   // background-size: cover;
