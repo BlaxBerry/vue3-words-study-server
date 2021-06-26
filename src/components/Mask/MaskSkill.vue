@@ -1,8 +1,9 @@
 <template>
   <div class="mask-skill">
-    <div class="mask-close-btn shadow-box" @click="closeMasWork">X</div>
-
     <div class="mask-content">
+      <!-- close btn -->
+      <div class="mask-close-btn shadow-box" @click="closeMasWork">X</div>
+
       <!-- Techs -->
       <div class="skill-techs">
         <ul>
@@ -63,9 +64,6 @@
             </div>
             <!-- work name -->
             <p class="mask-work-name">{{ item.name }}</p>
-
-
-
           </li>
         </ul>
       </div>
@@ -113,7 +111,13 @@ export default {
     top: 2rem;
     right: 2rem;
     z-index: 222;
-    width: 2rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-style: normal;
+    font-size: 2.5rem;
+    border-radius: 50%;
     background-color: #fff;
     cursor: pointer;
   }

@@ -1,8 +1,9 @@
 <template>
-  <div class="mask-work">
-    <div class="mask-close-btn shadow-box" @click="closeMasWork">X</div>
-
+  <div class="mask-work" @click.self="closeMasWork">
     <div class="mask-content shadow-box">
+      <!-- close btn -->
+      <div class="mask-close-btn shadow-box" @click="closeMasWork">X</div>
+
       <!-- left / top side -->
       <div class="work-text-box">
         <h2 class="mask-work-name">{{ workData.name }}</h2>
@@ -108,7 +109,13 @@ export default {
     top: 2rem;
     right: 2rem;
     z-index: 222;
-    width: 2rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-style: normal;
+    font-size: 2.5rem;
+    border-radius: 50%;
     background-color: #fff;
     cursor: pointer;
   }
