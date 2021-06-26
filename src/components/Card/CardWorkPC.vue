@@ -35,7 +35,7 @@ export default {
         this.$parent.$parent._data.cardWorkData = item;
         // console.log(this.$parent.$parent._data.cardWorkData);
         this.$parent.$parent._data.maskWorkFlag = true;
-      }, 200);
+      }, 100);
     },
   },
 };

@@ -41,7 +41,7 @@ export default {
         // });
         // query can see in URL
         // this.$router.push(`/skills?name=${item.params}&position=${item.desc}`)
-      }, 200);
+      }, 100);
     },
   },
 };
