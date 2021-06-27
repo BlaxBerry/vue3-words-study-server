@@ -4,13 +4,12 @@
         "name": "Node.js",
         "picSrc": "nodejs.svg",
         "desc": [
-            "Node.jsのデフォルトモジュールが使えます。",
-            "CommonJSのモジュール開発ができ、パッケージ管理ツールのgulp、npm、yarnが使えます。",
-            "art-templateなどのテンプレートエンジンを使い、SSR（Server Side Rending）Web開発できます。",
-            "Express.jsを通じて、CSR（Client Side Rendering）Web開発できます。",
-            "",
-            "MongoDB、MySQL、PostgreSQLに接続し、APIサーバー開発ができます。",
-            "Koaを勉強しています。"
+            "Node.jsのデフォルトAPIモジュールを理解します",
+            "CommonJSのモジュール開発を理解し、パッケージ管理ツールのgulp、npm、yarnが使えます",
+            "art-templateなどのテンプレートエンジンを使い、SSR（Server Side Rending）Web開発できます",
+            "Express.jsを通じて、CSR（Client Side Rendering）Web開発できます",
+            "MongoDB、MySQL、PostgreSQLに接続し、APIサーバー開発ができます",
+            "Koaは勉強中です..."
         ],
         "status": true,
         "techs": [

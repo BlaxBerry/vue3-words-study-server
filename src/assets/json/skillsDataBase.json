@@ -4,9 +4,9 @@
         "name": "MongoDB",
         "picSrc": "mongodb.svg",
         "desc": [
-            "基礎的なデータを操作ができます。",
-            "MongoDB Compasshツールが使えます。",
-            "Node.jsで接続してデータを操作し、APIサーバー開発できます。"
+            "基礎的なデータを操作ができます",
+            "MongoDB Compasshツールが使えます",
+            "Node.jsに接続してデータを操作し、APIサーバー開発できます"
         ],
         "status": true,
         "techs": [
@@ -28,9 +28,8 @@
         "name": "PostgreSQL",
         "picSrc": "postgresql.svg",
         "desc": [
-            "SQL言語で基礎的なデータを操作ができます。",
-            "MySQLWorkBenchツールが使えます",
-            "Node.jsで接続してデータを操作し、APIサーバー開発できます。"
+            "基礎SQL言語を理解し、データの管理操作ができます",
+            "Node.jsに接続してデータを操作し、APIサーバー開発できます"
         ],
         "status": true,
         "techs": [
@@ -52,9 +51,9 @@
         "name": "MySQL",
         "picSrc": "mysql.svg",
         "desc": [
-            "SQL言語で基礎的なデータを操作ができます。",
-            "MySQLWorkBenchツールが使えます。",
-            "Node.jsで接続してデータを操作し、APIサーバー開発できます。"
+            "基礎SQL言語を理解し、データの管理操作ができます",
+            "MySQLWorkBenchツールが使えます",
+            "Node.jsに接続してデータを操作し、APIサーバー開発できます"
         ],
         "status": true,
         "techs": [

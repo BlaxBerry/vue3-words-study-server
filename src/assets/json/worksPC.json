@@ -1,5 +1,30 @@
 [
     {
+        "name": "Chen's Portfolio",
+        "feature": [
+            "could check more details of my Skills and Works, by clicking picture or link button of each one."
+        ],
+        "website": "https://blaxberry.github.io",
+        "github": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+        "desc": "This is my Portfolio a Responsive SPA (Single Page Application) created by Vue.js + Vue-Router, developed by Vue-Cli, rendering data to templates by Local JSON files.",
+        "techStack": [
+            "HTML5 + CSS3",
+            "Vue.js",
+            "Vue-Cli",
+            "Vue-Router",
+            "Webpack",
+            "Less",
+            "MediaQuery"
+        ],
+        "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png",
+        "pics": [
+            "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png",
+            "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask02.png",
+            "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask03.png",
+            "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask04.png"
+        ]
+    },
+    {
         "name": "Wedding Dress Site",
         "feature": [],
         "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
@@ -15,29 +40,6 @@
             "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/02.png",
             "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/03.png",
             "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/04.png"
-        ]
-    },
-    {
-        "name": "Chen's Portfolio",
-        "feature": [
-            "could check more details of my Skills and Works, by clicking picture or link button of each one."
-        ],
-        "website": "https://blaxberry.github.io",
-        "github": "https://github.com/BlaxBerry/BlaxBerry.github.io",
-        "desc": "This is my Portfolio, a Responsive SPA (Single Page Application) created by Vue.js + Vue-Router, developed by Vue-Cli, rendering data to templates by Local JSON files.",
-        "techStack": [
-            "HTML5 + CSS3",
-            "Vue.js",
-            "Vue-Cli",
-            "Vue-Router",
-            "Webpack",
-            "Less",
-            "MediaQuery"
-        ],
-        "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png",
-        "pics": [
-            "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png",
-            "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask02.png"
         ]
     },
     {

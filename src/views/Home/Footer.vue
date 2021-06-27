@@ -20,7 +20,7 @@
 
       <div class="version">
         <a href="https://github.com/BlaxBerry/-Portfolio" target="_blank"
-          >Chen's Portofilo <b>Version 3.0</b>
+          >Chen's Portfolio <b>Version 3.0</b>
         </a>
       </div>
       <div class="copyright">

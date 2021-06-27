@@ -4,9 +4,9 @@
         "name": "HTML",
         "picSrc": "html5.svg",
         "desc": [
-            "静的なWebページ開発ができます。",
-            "サーバーにリクエストし、動的に画面をレンダリングすることができます。",
-            "CSSやJavaScriptなどを使い、インタラクティブにすることができます。",
+            "静的なWebページ開発ができます",
+            "CSSやJavaScriptなどを使い、インタラクティブにすることができます",
+            "Ajaxを通じて、動的にレンダリングすることができます",
             "基礎的なCanvasが使えます"
         ],
         "status": true,
@@ -41,6 +41,11 @@
                 ]
             },
             {
+                "name": "Portfolio Version 3.0",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png"
+            },
+            {
                 "name": "Wedding Dress",
                 "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
                 "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
@@ -59,18 +64,13 @@
                 "github": "https://github.com/BlaxBerry/JS--todoList"
             },
             {
-                "name": "Portofilo Version 3.0",
-                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io",
-                "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png"
-            },
-            {
-                "name": "Portofilo Version 2.0",
+                "name": "Portfolio Version 2.0",
                 "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
                 "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
                 "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
             },
             {
-                "name": "Portofilo Version 1.0",
+                "name": "Portfolio Version 1.0",
                 "mianPic": "https://pbs.twimg.com/media/E13hF3OVoAMyw1S?format=jpg&name=medium",
                 "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
                 "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
@@ -95,9 +95,8 @@
         "picSrc": "css3.svg",
         "desc": [
             "レスポンシブレイアウト開発ができます",
-            "Animationでインタラクティブできます。",
-            "Bootstrapなどのフレームワークが使えます。",
-            "SassやLessなど、CSSプリプロセッサを利用して開発することができます。。"
+            "Bootstrapなどのフレームワークを利用して開発することができます",
+            "SassやLessなどのCSSプリプロセッサが使えます"
         ],
         "status": true,
         "techs": [
@@ -116,18 +115,18 @@
         ],
         "worksPC": [
             {
-                "name": "Portofilo Version 3.0",
+                "name": "Portfolio Version 3.0",
                 "github": "https://github.com/BlaxBerry/BlaxBerry.github.io",
                 "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png"
             },
             {
-                "name": "Portofilo Version 2.0",
+                "name": "Portfolio Version 2.0",
                 "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
                 "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
                 "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
             },
             {
-                "name": "Portofilo Version 1.0",
+                "name": "Portfolio Version 1.0",
                 "mianPic": "https://pbs.twimg.com/media/E13hF3OVoAMyw1S?format=jpg&name=medium",
                 "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
                 "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
@@ -195,15 +194,12 @@
         "name": "jQuery",
         "picSrc": "jquery.svg",
         "desc": [
-            "jQueryを通じて、基本的なHTMLのDOM操作ができます。",
-            "AjaxやJSONPでリクエストして、データを取得してレンダリングすることができます。"
+            "jQueryを通じて開発することができます",
+            "jQueryでDOM操作やanimateなどでインタラクティブにすることができます",
+            "AjaxやJSONPを通じて、データを取得してレンダリングすることができます"
         ],
         "status": true,
         "techs": [
-            {
-                "tagPic": "javascript.svg",
-                "name": "JavaScript"
-            },
             {
                 "tagPic": "ajax.svg",
                 "name": "Ajax"
@@ -229,13 +225,13 @@
                 "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress"
             },
             {
-                "name": "Portofilo Version 2.0",
+                "name": "Portfolio Version 2.0",
                 "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
                 "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
                 "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
             },
             {
-                "name": "Portofilo Version 1.0",
+                "name": "Portfolio Version 1.0",
                 "mianPic": "https://pbs.twimg.com/media/E13hF3OVoAMyw1S?format=jpg&name=medium",
                 "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
                 "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
@@ -247,7 +243,7 @@
         "name": "TypeScript",
         "picSrc": "typescript.svg",
         "desc": [
-            "勉強しています..."
+            "勉強中です..."
         ],
         "status": true,
         "techs": [
@@ -272,11 +268,11 @@
         "name": "React.js",
         "picSrc": "react.svg",
         "desc": [
-            "Create React Appが使えます。",
-            "Ant-Designなどのコンポーネントライブラリを利用し、開発することがきます。",
-            "React-Router-Domを使って、SPAシングルページアプリケーションを作成するできます。",
-            "AxiosでAPIからデータを取得してレンダリングすることができます。",
-            "Reduxを勉強しています..."
+            "Create React Appが使えます",
+            "Ant-Designなどのコンポーネントライブラリを利用し、開発することがきます",
+            "React-Router-Domを使って、SPAシングルページアプリケーション作成ができます",
+            "AxiosでAPIからデータを取得してレンダリングすることができます",
+            "Reduxは勉強中です..."
         ],
         "status": true,
         "techs": [
@@ -309,8 +305,8 @@
             "ElementUI、VantUIなどのコンポーネントライブラリを利用し、開発することがきます。",
             "Vue-Routerを使って、SPAシングルページアプリケーションを作成するできます。",
             "AxiosでAPIからデータを取得してレンダリングすることができます。",
-            "Vuexを勉強しています...",
-            "EChartsを勉強しています..."
+            "Vuexは勉強中です...",
+            "EChartsなどは勉強中です..."
         ],
         "status": true,
         "techs": [
@@ -334,7 +330,7 @@
                 "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/pc01.png"
             },
             {
-                "name": "Portofilo Version 3.0",
+                "name": "Portfolio Version 3.0",
                 "github": "https://github.com/BlaxBerry/BlaxBerry.github.io",
                 "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png"
             },
