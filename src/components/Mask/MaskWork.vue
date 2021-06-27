@@ -53,7 +53,7 @@
             @click="clickSmallImg(item)"
             class="mask-work-samll-img"
           >
-            <img :src="item" alt="" />
+            <img :src="item" alt="" class="shadow-box"/>
           </li>
         </ul>
 
@@ -144,26 +144,27 @@ export default {
     }
     // right / bottom
     .work-imgs-box {
+      display: flex;
+      align-content: center;
       width: 55%;
+      height: 100%;
       padding: 0.5rem;
     }
 
     // 上部 小图列表
     .mask-work-small-imgs-list {
-      display: flex;
-      justify-content: flex-start;
-      align-content: center;
-      flex-wrap: wrap;
-      padding: 0.5rem;
+      padding-right: 1rem;
       .mask-work-samll-img {
-        width: 8rem;
-        margin: 0.5rem;
+        margin: 0 0 0.5rem;
         cursor: pointer;
-        overflow: hidden;
         img {
-          width: 100%;
+          width: 8rem;
         }
       }
+    }
+    // 大图
+    .mask-work-big-img {
+      flex: 1;
     }
   }
 

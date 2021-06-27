@@ -72,6 +72,7 @@
         "github": "https://github.com/BlaxBerry/Mobile-book-shopping",
         "desc": "This is a Web Application about Task List Management, according to Material Design, user's data recorded by LocalStorage.",
         "techStack": [
+            "JavaScript",
             "LocalStorage",
             "Material Framework",
             "Font Awesome"

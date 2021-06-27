@@ -27,6 +27,11 @@
                 "name": "SSR Student Info Management",
                 "github": "https://github.com/BlaxBerry/SSR-user_info_management",
                 "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
+            },
+            {
+                "name": "User Login API Server",
+                "github": "https://github.com/BlaxBerry/api_server_MySQL",
+                "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
             }
         ]
     }

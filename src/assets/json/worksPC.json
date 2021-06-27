@@ -26,12 +26,16 @@
     },
     {
         "name": "Wedding Dress Site",
-        "feature": [],
+        "feature": [
+            "PC static page"
+        ],
         "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
         "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress",
-        "desc": "This is a PC Static Website for Practicing basic box-model-layout and flexible-layout",
+        "desc": "This is a fictional PC Static Website, for practice basic box-model and flexible-layout.",
         "techStack": [
-            "HTML5 + CSS3",
+            "HTML5",
+            "CSS3",
+            "Less",
             "jQuery"
         ],
         "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
@@ -70,7 +74,11 @@
     },
     {
         "name": "SSR Student Info Management",
-        "feature": [],
+        "feature": [
+            "Add new student information",
+            "Modify student information",
+            "Delete student information"
+        ],
         "website": "https://github.com/BlaxBerry/SSR-user_info_management",
         "github": "https://github.com/BlaxBerry/SSR-user_info_management",
         "desc": "SSR (Server Side Rending) created by Node.js, connected to MongoDB database, according to request URl and method, to send data from databaseto or to render pages by Router, using TemplateEngine art-template to render data in HTML.",
