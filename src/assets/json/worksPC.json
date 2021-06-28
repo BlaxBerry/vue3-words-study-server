@@ -27,23 +27,26 @@
     {
         "name": "Wedding Dress Site",
         "feature": [
-            "PC static page"
+            "Responsive Layout",
+            "BootStrap's Grid System"
         ],
-        "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
-        "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress",
-        "desc": "This is a fictional PC Static Website, for practice basic box-model and flexible-layout.",
+        "website": "https://blaxberry.github.io/PC-Static-Weddng-Dress/",
+        "github": "https://github.com/BlaxBerry/PC-Static-Weddng-Dress",
+        "desc": "This is a fictional Responsive Static Website, for practice responsive layout and Bootstrap.",
         "techStack": [
             "HTML5",
             "CSS3",
-            "Less",
+            "Bootstrap",
             "jQuery"
         ],
-        "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-Weddng-Dress/raw/master/images/01.png",
+        "mianPic":  "https://github.com/BlaxBerry/PC-Static-Weddng-Dress/raw/master/images/01.png",
         "pics": [
-            "https://github.com/BlaxBerry/PC-Static-Web-Weddng-Dress/raw/master/images/01.png",
-            "https://github.com/BlaxBerry/PC-Static-Web-Weddng-Dress/raw/master/images/02.png",
-            "https://github.com/BlaxBerry/PC-Static-Web-Weddng-Dress/raw/master/images/03.png",
-            "https://github.com/BlaxBerry/PC-Static-Web-Weddng-Dress/raw/master/images/04.png"
+            "https://github.com/BlaxBerry/PC-Static-Weddng-Dress/raw/master/images/01.png",
+            "https://github.com/BlaxBerry/PC-Static-Weddng-Dress/raw/master/images/02.png",
+            "https://github.com/BlaxBerry/PC-Static-Weddng-Dress/raw/master/images/03.png",
+            "https://github.com/BlaxBerry/PC-Static-Weddng-Dress/raw/master/images/04.png",
+            "https://github.com/BlaxBerry/PC-Static-Weddng-Dress/raw/master/images/05.png"
+
         ]
     },
     {

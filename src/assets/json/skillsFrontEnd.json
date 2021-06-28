@@ -47,7 +47,7 @@
             },
             {
                 "name": "Wedding Dress",
-                "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-Weddng-Dress/raw/master/images/01.png",
+                "mianPic": "https://github.com/BlaxBerry/PC-Static-Weddng-Dress/raw/master/images/01.png",
                 "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
                 "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress"
             },
@@ -113,9 +113,20 @@
         ],
         "worksPC": [
             {
+                "name": "Wedding Dress Site",
+                "mianPic": "https://github.com/BlaxBerry/PC-Static-Weddng-Dress/raw/master/images/01.png",
+                "website": "https://blaxberry.github.io/PC-Static-Weddng-Dress/",
+                "github": "https://github.com/BlaxBerry/PC-Static-Weddng-Dress"
+            },
+            {
                 "name": "Portfolio Version 3.0",
                 "github": "https://github.com/BlaxBerry/BlaxBerry.github.io",
                 "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png"
+            },
+            {
+                "name": "SSR Student Info Management",
+                "github": "https://github.com/BlaxBerry/SSR-user_info_management",
+                "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
             },
             {
                 "name": "Portfolio Version 2.0",
@@ -135,18 +146,6 @@
                 "desc": "",
                 "website": "",
                 "github": "https://github.com/BlaxBerry/Demo_CSS/tree/master/Digital_clock"
-            },
-            {
-                "name": "Running Bear Animation",
-                "mianPic": "https://github.com/BlaxBerry/Demo_CSS/raw/master/running_bear/screenshot.png",
-                "desc": "",
-                "website": "",
-                "github": "https://github.com/BlaxBerry/Demo_CSS/tree/master/running_bear"
-            },
-            {
-                "name": "SSR Student Info Management",
-                "github": "https://github.com/BlaxBerry/SSR-user_info_management",
-                "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
             }
         ]
     },
@@ -205,7 +204,7 @@
         ],
         "worksPC": [
             {
-                "name": "QingZhu Shopping",
+                "name": "EC QingZhu Shopping",
                 "mianPic": "https://pbs.twimg.com/media/E4tBTASUUAU1_C5?format=jpg&name=small",
                 "website": "https://blaxberry.github.io/PC-Static-Web-QingZhuShopping/",
                 "github": "https://github.com/BlaxBerry/PC-Static-Web-QingZhuShopping"
@@ -217,10 +216,10 @@
                 "github": "https://github.com/BlaxBerry/JS--todoList"
             },
             {
-                "name": "Portfolio Version 2.0",
-                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
-                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
-                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
+                "name": "Wedding Dress Site",
+                "mianPic": "https://github.com/BlaxBerry/PC-Static-Weddng-Dress/raw/master/images/01.png",
+                "website": "https://blaxberry.github.io/PC-Static-Weddng-Dress/",
+                "github": "https://github.com/BlaxBerry/PC-Static-Weddng-Dress"
             }
         ],
         "worksMobile": [
@@ -233,6 +232,11 @@
                 "name": "Simple Todo List",
                 "github": "https://github.com/BlaxBerry/JS--TaskList",
                 "mianPic": "https://huntr-assets.s3.amazonaws.com/users/151810189/ddde0ab7-8a48-4573-8b57-61ada72763b5"
+            },
+            {
+                "name": "Ticket Stite",
+                "github": "https://github.com/BlaxBerry/Mobile-Static-Web-ticketsite",
+                "mianPic":"https://pbs.twimg.com/media/E2EjAYyVUAIL-iW?format=jpg&name=medium"
             }
         ]
     },
