@@ -37,11 +37,13 @@
       <br />
 
       <!-- Title -->
-      <h4 class="title3">- Example Demo -</h4>
+      <h4 class="title3" v-if="skillData.worksPC || skillData.worksMobile">
+        - Example Demo -
+      </h4>
       <br />
 
       <!-- Works PC -->
-      <div class="skill-works-pc">
+      <div class="skill-works-pc" v-if="skillData.worksPC">
         <div class="skill-works-desc">
           <p>{{ skillData.worksDesc }}</p>
         </div>
@@ -49,8 +51,8 @@
         <!-- pics -->
         <ul>
           <li v-for="(item, index) in skillData.worksPC" :key="index">
-            <!-- work pic -->
             <div class="work-pic">
+              <!-- pic -->
               <img
                 :src="item.mianPic"
                 alt=""
@@ -65,13 +67,32 @@
                 >
               </div>
             </div>
-            <!-- work name -->
+            <!-- name -->
             <p class="mask-work-name">{{ item.name }}</p>
           </li>
         </ul>
       </div>
 
       <!-- Works Mobile-->
+      <div class="skill-works-mobile" v-if="skillData.worksMobile">
+        <ul>
+          <li v-for="(item, index) in skillData.worksMobile" :key="index">
+            <div class="mobile-pic">
+              <!-- pic -->
+              <img :src="item.mianPic" alt="" class="shadow-box scale-box" />
+              <!-- mask -->
+              <div class="links-mask center-align">
+                <!-- <p>{{ item.name }}</p> -->
+                <a :href="item.github" @click="clickCard(item)" target="_blank"
+                  >Github Demo</a
+                >
+              </div>
+            </div>
+            <!-- name -->
+            <p class="center-align">{{ item.name }}</p>
+          </li>
+        </ul>
+      </div>
 
       <!-- more -->
       <h4 class="title3">
@@ -164,7 +185,7 @@ export default {
       }
     }
 
-    // skill works
+    // pic works
     .skill-works-pc {
       .skill-works-desc {
         p {
@@ -183,7 +204,7 @@ export default {
           margin: 0.5rem;
           width: 30%; //////////////////////
           cursor: pointer;
-          // links
+          // card
           .work-pic {
             position: relative;
             // mask
@@ -208,9 +229,57 @@ export default {
             }
           }
         }
+        p {
+          line-height: 1.5;
+        }
+      }
+    }
+
+    // mobile works
+    .skill-works-mobile {
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        li {
+          margin: 1rem 2rem;
+          width: 20%;
+          cursor: pointer;
+          // card
+          .mobile-pic {
+            position: relative;
+            // mask
+            .links-mask {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              width: 100%;
+              padding: 1rem;
+              background-color: rgba(0, 0, 0, 0.8);
+              transform: scale(0);
+              transition: all 1s;
+              a {
+                color: white;
+              }
+            }
+          }
+          &:hover {
+            .links-mask {
+              transform: scale(1);
+            }
+          }
+        }
+        p {
+          line-height: 1.5;
+        }
       }
     }
   }
+
   p {
     line-height: 2.6rem;
     font-style: normal;

@@ -47,7 +47,7 @@
             },
             {
                 "name": "Wedding Dress",
-                "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
+                "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-Weddng-Dress/raw/master/images/01.png",
                 "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
                 "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress"
             },
@@ -57,35 +57,33 @@
                 "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/pc01.png"
             },
             {
-                "name": "LocalStorage TodoList",
+                "name": "Simple TodoList",
                 "mianPic": "https://pbs.twimg.com/media/EuRg8zRVgAQMwVi?format=png&name=small",
                 "desc": "PC Static",
                 "website": "",
                 "github": "https://github.com/BlaxBerry/JS--todoList"
-            },
-            {
-                "name": "Portfolio Version 2.0",
-                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
-                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
-                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
-            },
-            {
-                "name": "Portfolio Version 1.0",
-                "mianPic": "https://pbs.twimg.com/media/E13hF3OVoAMyw1S?format=jpg&name=medium",
-                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
-                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
-            },
-            {
-                "name": "SSR Student Info Management",
-                "github": "https://github.com/BlaxBerry/SSR-user_info_management",
-                "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
             }
         ],
         "worksMobile": [
             {
-                "name": "SSR Student Info Management",
-                "github": "https://github.com/BlaxBerry/SSR-user_info_management",
-                "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
+                "name": "SPA Book Shop",
+                "github": "https://github.com/BlaxBerry/Mobile-book-shopping",
+                "mianPic": "https://github.com/BlaxBerry/Mobile-book-shopping/raw/main/src/assets/images/MK-Home.png"
+            },
+            {
+                "name": "SPA EC Shopping",
+                "github": "https://github.com/BlaxBerry/vue-shop-app-Mobile",
+                "mianPic": "https://github.com/BlaxBerry/vue-shop-app-Mobile/raw/master/public/images/Home.png"
+            },
+            {
+                "name": "Music Player",
+                "github": "https://github.com/BlaxBerry/vue-music-player",
+                "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mobile01.png"
+            },
+            {
+                "name": "Chat Robot",
+                "github": "https://github.com/BlaxBerry/Demo_jQuery/tree/master/ChatRobot",
+                "mianPic": "https://github.com/BlaxBerry/Demo_jQuery/raw/master/ChatRobot/screenshot.png"
             }
         ]
     },
@@ -219,22 +217,22 @@
                 "github": "https://github.com/BlaxBerry/JS--todoList"
             },
             {
-                "name": "Wedding Dress",
-                "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
-                "website": "https://blaxberry.github.io/PC-Static-Web-weddingdress/",
-                "github": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress"
-            },
-            {
                 "name": "Portfolio Version 2.0",
                 "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
                 "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
                 "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
+            }
+        ],
+        "worksMobile": [
+            {
+                "name": "Chat Robot",
+                "github": "https://github.com/BlaxBerry/Demo_jQuery/tree/master/ChatRobot",
+                "mianPic": "https://github.com/BlaxBerry/Demo_jQuery/raw/master/ChatRobot/screenshot.png"
             },
             {
-                "name": "Portfolio Version 1.0",
-                "mianPic": "https://pbs.twimg.com/media/E13hF3OVoAMyw1S?format=jpg&name=medium",
-                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
-                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
+                "name": "Simple Todo List",
+                "github": "https://github.com/BlaxBerry/JS--TaskList",
+                "mianPic": "https://huntr-assets.s3.amazonaws.com/users/151810189/ddde0ab7-8a48-4573-8b57-61ada72763b5"
             }
         ]
     },
@@ -338,6 +336,23 @@
                 "name": "Book Library Management",
                 "github": "https://github.com/BlaxBerry/SSR-user_info_management",
                 "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
+            }
+        ],
+        "worksMobile": [
+            {
+                "name": "SPA Book Shop",
+                "github": "https://github.com/BlaxBerry/Mobile-book-shopping",
+                "mianPic": "https://github.com/BlaxBerry/Mobile-book-shopping/raw/main/src/assets/images/MK-Home.png"
+            },
+            {
+                "name": "SPA EC Shopping",
+                "github": "https://github.com/BlaxBerry/vue-shop-app-Mobile",
+                "mianPic": "https://github.com/BlaxBerry/vue-shop-app-Mobile/raw/master/public/images/Home.png"
+            },
+            {
+                "name": "Music Player",
+                "github": "https://github.com/BlaxBerry/vue-music-player",
+                "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mobile01.png"
             }
         ]
     }

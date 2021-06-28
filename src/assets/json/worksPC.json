@@ -2,7 +2,7 @@
     {
         "name": "Chen's Portfolio",
         "feature": [
-            "could check more details of my Skills and Works, by clicking picture or link button of each one."
+            "click the picture of each Skill, could check more information and works"
         ],
         "website": "https://blaxberry.github.io",
         "github": "https://github.com/BlaxBerry/BlaxBerry.github.io",
@@ -38,12 +38,12 @@
             "Less",
             "jQuery"
         ],
-        "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
+        "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-Weddng-Dress/raw/master/images/01.png",
         "pics": [
-            "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/01.png",
-            "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/02.png",
-            "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/03.png",
-            "https://github.com/BlaxBerry/PC-Static-Web-weddingdress/raw/master/images/04.png"
+            "https://github.com/BlaxBerry/PC-Static-Web-Weddng-Dress/raw/master/images/01.png",
+            "https://github.com/BlaxBerry/PC-Static-Web-Weddng-Dress/raw/master/images/02.png",
+            "https://github.com/BlaxBerry/PC-Static-Web-Weddng-Dress/raw/master/images/03.png",
+            "https://github.com/BlaxBerry/PC-Static-Web-Weddng-Dress/raw/master/images/04.png"
         ]
     },
     {

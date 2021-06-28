@@ -69,7 +69,7 @@
             "Record Data in LocalStorage."
         ],
         "website": "https://blaxberry.github.io/JS--TaskList/",
-        "github": "https://github.com/BlaxBerry/Mobile-book-shopping",
+        "github": "https://github.com/BlaxBerry/JS--TaskList",
         "desc": "This is a Web Application about Task List Management, according to Material Design, user's data recorded by LocalStorage.",
         "techStack": [
             "JavaScript",

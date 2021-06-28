@@ -8,7 +8,7 @@
 
     <!-- desc -->
     <div class="desc">
-      <b>
+      <b style="fontStyle:normal">
         今まで身に付いているスキルは主にフロントエンドですが、
         その不足も認識していますが、挑戦して開発経験を積んだ上で、
         フロントエンドに関するスキルを幅広くスキルアップして、
@@ -17,9 +17,9 @@
     </div>
     <br />
 
-    <p class="center-align showdetail">
-      <b>( Click the picture of skill to Check More Details )</b>
-    </p>
+    <h3 class="center-align showdetail" style="color:white">
+      ( Click the picture of skill to Check More Details )
+    </h3>
 
     <!-- 1. front-end -->
     <Title>
