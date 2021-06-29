@@ -93,8 +93,8 @@
         "picSrc": "css3.svg",
         "desc": [
             "レスポンシブレイアウト開発ができます",
-            "Bootstrapなどのフレームワークを利用して開発することができます",
-            "SassやLessなどのCSSプリプロセッサが使えます"
+            "Bootstrapなどのフレームワークを利用し、レスポンシブレイアウト開発することができます",
+            "SassやLessなどのCSSプリプロセッサを利用して開発することができます"
         ],
         "status": true,
         "techs": [
@@ -124,9 +124,9 @@
                 "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png"
             },
             {
-                "name": "SSR Student Info Management",
-                "github": "https://github.com/BlaxBerry/SSR-user_info_management",
-                "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
+                "name": "SSR Blog & User Management",
+                "github": "https://github.com/BlaxBerry/node_blog_management",
+                "mianPic": "https://github.com/BlaxBerry/node_blog_management/raw/master/public/images/01.png"
             },
             {
                 "name": "Portfolio Version 2.0",
@@ -202,7 +202,14 @@
                 "name": "Ajax"
             }
         ],
+        "worksDesc": "最初はjQeryやLocalStorageなど利用し、架空のEC（電子商取引）静的なページで練習しましたが、通信などの知識を勉強した後、jQeruyのAjaxでFree APIにデータを請求して動的な開発も練習しました。",
         "worksPC": [
+            {
+                "name": "EC PinYouGo Shopping",
+                "mianPic": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping/raw/master/images/screenshot1.png",
+                "website": "https://blaxberry.github.io/PC-Static-Web-PinYouGoShopping/",
+                "github": "https://github.com/BlaxBerry/PC-Static-Web-PinYouGoShopping"
+            },
             {
                 "name": "EC QingZhu Shopping",
                 "mianPic": "https://pbs.twimg.com/media/E4tBTASUUAU1_C5?format=jpg&name=small",
@@ -216,10 +223,21 @@
                 "github": "https://github.com/BlaxBerry/JS--todoList"
             },
             {
+                "name": "SSR Blog & User Management",
+                "github": "https://github.com/BlaxBerry/node_blog_management",
+                "mianPic": "https://github.com/BlaxBerry/node_blog_management/raw/master/public/images/01.png"
+            },
+            {
                 "name": "Wedding Dress Site",
                 "mianPic": "https://github.com/BlaxBerry/PC-Static-Weddng-Dress/raw/master/images/01.png",
                 "website": "https://blaxberry.github.io/PC-Static-Weddng-Dress/",
                 "github": "https://github.com/BlaxBerry/PC-Static-Weddng-Dress"
+            },
+            {
+                "name": "Portfolio Version 2.0",
+                "mianPic": "https://pbs.twimg.com/media/E2GCxw_VgAEu50C?format=jpg&name=large",
+                "website": "https://github.com/BlaxBerry/BlaxBerry.github.io",
+                "github": "https://github.com/BlaxBerry/BlaxBerry.github.io"
             }
         ],
         "worksMobile": [
@@ -236,7 +254,7 @@
             {
                 "name": "Ticket Stite",
                 "github": "https://github.com/BlaxBerry/Mobile-Static-Web-ticketsite",
-                "mianPic":"https://pbs.twimg.com/media/E2EjAYyVUAIL-iW?format=jpg&name=medium"
+                "mianPic": "https://pbs.twimg.com/media/E2EjAYyVUAIL-iW?format=jpg&name=medium"
             }
         ]
     },

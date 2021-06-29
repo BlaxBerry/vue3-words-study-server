@@ -17,9 +17,9 @@
         ],
         "worksPC": [
             {
-                "name": "SSR Student Info Management",
-                "github": "https://github.com/BlaxBerry/SSR-user_info_management",
-                "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
+                "name": "SSR Blog & User Management",
+                "github": "https://github.com/BlaxBerry/node_blog_management",
+                "mianPic": "https://github.com/BlaxBerry/node_blog_management/raw/master/public/images/01.png"
             },
             {
                 "name": "User Info with Login API Server",
