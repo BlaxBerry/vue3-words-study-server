@@ -11,7 +11,7 @@
         <b>
           <vue-typer
             :text="[
-              'Hello, I am Chen.\nan enthusiastic guy dreaming to be a IT Enginner.\nLove Coding Love black screen, Learing Fighting everyday.',
+              'Hello, I am Chen.\nan enthusiastic guy dreaming to be a IT Enginner.\nLove Coding Love black screen, Learning Fighting everyday.',
             ]"
             class="top-text"
             :repeat="0"

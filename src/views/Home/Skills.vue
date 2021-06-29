@@ -17,9 +17,10 @@
     </div>
     <br />
 
-    <h3 class="center-align showdetail" style="color:white">
-      ( Click the picture of skill to Check More Details )
-    </h3>
+    <p class="center-align showdetail" style="color:white;">
+     <b> ( スキルのピクチャーをクリックして各詳細をご確認ください )</b>
+    </p>
+     <p style="color:white;text-align:center">Click the picture of skill to Check More Details</p>
 
     <!-- 1. front-end -->
     <Title>
