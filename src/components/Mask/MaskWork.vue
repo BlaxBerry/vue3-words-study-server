@@ -2,7 +2,7 @@
   <div class="mask-work bgkclolr-box" @click.self="closeMasWork">
     <div class="mask-content shadow-box">
       <!-- close btn -->
-      <div class="mask-close-btn shadow-box" @click="closeMasWork">X</div>
+      <!-- <div class="mask-close-btn shadow-box" @click="closeMasWork">X</div> -->
 
       <!-- left / top side -->
       <div class="work-text-box">
@@ -15,14 +15,18 @@
         <br />
 
         <div class="mask-work-links">
-          <h4>Check Links</h4>
-          <a :href="workData.github" target="_blank">——>GitHub Code!!!</a><br />
-          <a :href="workData.website" target="_blank">——>Demo!!!</a>
+          <h3>- Click to Check Links -</h3>
+          <a :href="workData.github" target="_blank">
+            <img src="../../assets/images/github demo.svg" alt="" />
+          </a>
+          <a :href="workData.website" target="_blank">
+            <img src="../../assets/images/more demo.svg" alt="" />
+          </a>
         </div>
         <br />
 
         <div class="mask-work-feature">
-          <h4>Function & Descriptoin</h4>
+          <h3>- Function & Descriptoin -</h3>
           <ul>
             <li v-for="(item, index) in workData.feature" :key="index">
               <p>
@@ -34,7 +38,7 @@
         <br />
 
         <div class="mask-work-techtask">
-          <h4>Tech Stack</h4>
+          <h3>- Tech Stack -</h3>
           <ul>
             <li v-for="(item, index) in workData.techStack" :key="index">
               <p><b> - </b>{{ item }}</p>
@@ -53,7 +57,7 @@
             @click="clickSmallImg(item)"
             class="mask-work-samll-img"
           >
-            <img :src="item" alt="" class="shadow-box"/>
+            <img :src="item" alt="" class="shadow-box" />
           </li>
         </ul>
 
@@ -141,6 +145,23 @@ export default {
     .work-text-box {
       padding: 0 2rem;
       width: 40%;
+      // links
+      .mask-work-links {
+        a {
+          display: inline-block;
+          width: 45%;
+          overflow: hidden;
+          height: 4rem;
+          margin: 1rem 0 0;
+          transition: all 0.5s;
+          img {
+            height: 100%;
+          }
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
     }
     // right / bottom
     .work-imgs-box {

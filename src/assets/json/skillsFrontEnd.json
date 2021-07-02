@@ -66,12 +66,12 @@
         ],
         "worksMobile": [
             {
-                "name": "SPA Book Shop",
+                "name": "Book Shop",
                 "github": "https://github.com/BlaxBerry/Mobile-book-shopping",
                 "mianPic": "https://github.com/BlaxBerry/Mobile-book-shopping/raw/main/src/assets/images/MK-Home.png"
             },
             {
-                "name": "SPA EC Shopping",
+                "name": "SPA Shopping",
                 "github": "https://github.com/BlaxBerry/vue-shop-app-Mobile",
                 "mianPic": "https://github.com/BlaxBerry/vue-shop-app-Mobile/raw/master/public/images/Home.png"
             },
@@ -124,7 +124,7 @@
                 "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png"
             },
             {
-                "name": "SSR Blog & User Management",
+                "name": "SSR Blog Management",
                 "github": "https://github.com/BlaxBerry/node_blog_management",
                 "mianPic": "https://github.com/BlaxBerry/node_blog_management/raw/master/public/images/01.png"
             },
@@ -223,7 +223,7 @@
                 "github": "https://github.com/BlaxBerry/JS--todoList"
             },
             {
-                "name": "SSR Blog & User Management",
+                "name": "SSR Blog Management",
                 "github": "https://github.com/BlaxBerry/node_blog_management",
                 "mianPic": "https://github.com/BlaxBerry/node_blog_management/raw/master/public/images/01.png"
             },
@@ -247,7 +247,7 @@
                 "mianPic": "https://github.com/BlaxBerry/Demo_jQuery/raw/master/ChatRobot/screenshot.png"
             },
             {
-                "name": "Simple Todo List",
+                "name": "Todo List",
                 "github": "https://github.com/BlaxBerry/JS--TaskList",
                 "mianPic": "https://huntr-assets.s3.amazonaws.com/users/151810189/ddde0ab7-8a48-4573-8b57-61ada72763b5"
             },
@@ -289,10 +289,10 @@
         "picSrc": "react.svg",
         "desc": [
             "Create React Appが使えます",
-            "Ant-Designなどのコンポーネントライブラリを利用し、開発することがきます",
+            "Ant-Design, Material-UI などのコンポーネントライブラリを利用して開発することがきます",
             "React-Router-Domを使って、SPAシングルページアプリケーション作成ができます",
             "AxiosでAPIからデータを取得してレンダリングすることができます",
-            "Reduxは勉強中です..."
+            "Redux, Nextは勉強中です..."
         ],
         "status": true,
         "techs": [
@@ -305,15 +305,12 @@
                 "name": "Redux"
             }
         ],
-        "works": [
+        "worksMobile": [
             {
-                "name": "",
-                "picSrc": "",
-                "desc": [],
-                "website": "",
-                "github": ""
-            },
-            {}
+                "name": "Music Player",
+                "github": "https://github.com/BlaxBerry/react-music-player",
+                "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mobile01.png"
+            }
         ]
     },
     {
@@ -355,7 +352,7 @@
                 "mianPic": "https://github.com/BlaxBerry/BlaxBerry.github.io/raw/master/src/assets/upload/mask01.png"
             },
             {
-                "name": "Book Library Management",
+                "name": "Library Management",
                 "github": "https://github.com/BlaxBerry/SSR-user_info_management",
                 "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
             }
@@ -367,7 +364,7 @@
                 "mianPic": "https://github.com/BlaxBerry/Mobile-book-shopping/raw/main/src/assets/images/MK-Home.png"
             },
             {
-                "name": "SPA EC Shopping",
+                "name": "SPA Shopping",
                 "github": "https://github.com/BlaxBerry/vue-shop-app-Mobile",
                 "mianPic": "https://github.com/BlaxBerry/vue-shop-app-Mobile/raw/master/public/images/Home.png"
             },

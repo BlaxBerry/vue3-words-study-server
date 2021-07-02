@@ -2,7 +2,7 @@
   <div class="mask-skill bgkclolr-box" @click.self="closeMasWork">
     <div class="mask-content">
       <!-- close btn -->
-      <div class="mask-close-btn shadow-box" @click="closeMasWork">X</div>
+      <!-- <div class="mask-close-btn shadow-box" @click="closeMasWork">X</div> -->
 
       <!-- Techs -->
       <div class="skill-techs">

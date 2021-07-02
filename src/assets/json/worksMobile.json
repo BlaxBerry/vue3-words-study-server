@@ -27,12 +27,8 @@
             "https://github.com/BlaxBerry/Mobile-book-shopping/raw/main/src/assets/images/MK-Home.png",
             "https://github.com/BlaxBerry/Mobile-book-shopping/raw/main/src/assets/images/MK-Category.png",
             "https://github.com/BlaxBerry/Mobile-book-shopping/raw/main/src/assets/images/MK-Profile.png",
-            "https://github.com/BlaxBerry/Mobile-book-shopping/raw/main/src/assets/images/MK-Detail.png",
-            "https://github.com/BlaxBerry/Mobile-book-shopping/raw/main/src/assets/images/MK-Register.png",
-            "https://github.com/BlaxBerry/Mobile-book-shopping/raw/main/src/assets/images/MK-Cart.png",
-            "https://github.com/BlaxBerry/Mobile-book-shopping/raw/main/src/assets/images/MK-EditAddress.png",
-            "https://github.com/BlaxBerry/Mobile-book-shopping/raw/main/src/assets/images/Pay.png"
-        ]
+            "https://github.com/BlaxBerry/Mobile-book-shopping/raw/main/src/assets/images/MK-Detail.png"
+         ]
     },
     {
         "name": "SPA Music Player",
@@ -40,20 +36,20 @@
             "Category Page",
             "Search Page",
             "List Page",
-            " MV Page",
+            "MV Page",
             "MV Play Detail Page"
         ],
-        "website": "",
-        "github": "https://github.com/BlaxBerry/vue-music-player",
-        "desc": "This is a SPA (Single Page Application) Player, created by Vue.js and Element-UI framework, requesting data by Axios from Local JSON files ( for persional using ).",
+        "website": "https://github.com/BlaxBerry/react-music-player",
+        "github": "https://github.com/BlaxBerry/react-music-player",
+        "desc": "SPA (Single Page Application) Player, created by React.js, requesting data by Axios from Local JSON files ( for persional using ), passing data between different components by default props and PubSub.js.",
         "techStack": [
-            "Vue.js",
-            "Vue-Cli",
-            "Vue-Router",
-            "Element UI",
+            "React.js",
+            "Create-React-App",
+            "React-Router-Dom",
+            "Material UI",
+            "Scss",
             "Axios",
-            "Webpack",
-            "Less"
+            "PubSub.js"
         ],
         "mianPic": "https://github.com/BlaxBerry/vue-music-player/raw/master/src/assets/images/mobile01.png",
         "pics": [
@@ -70,7 +66,7 @@
         ],
         "website": "https://blaxberry.github.io/JS--TaskList/",
         "github": "https://github.com/BlaxBerry/JS--TaskList",
-        "desc": "This is a Web Application about Task List Management, according to Material Design, user's data recorded by LocalStorage.",
+        "desc": "This is a Simple Task list management, could Add, Delete, Search Task List. According to Material Design, Record Data in LocalStorage.",
         "techStack": [
             "JavaScript",
             "LocalStorage",

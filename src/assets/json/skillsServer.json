@@ -24,12 +24,12 @@
         ],
         "worksPC": [
             {
-                "name": "SSR Blog & User Management",
+                "name": "SSR Blog Management",
                 "github": "https://github.com/BlaxBerry/node_blog_management",
                 "mianPic": "https://github.com/BlaxBerry/node_blog_management/raw/master/public/images/01.png"
             },
             {
-                "name": "User Login API Server",
+                "name": "Text API Server",
                 "github": "https://github.com/BlaxBerry/api_server_MySQL",
                 "mianPic": "https://github.com/BlaxBerry/SSR-user_info_management/raw/master/public/images/list.png"
             }

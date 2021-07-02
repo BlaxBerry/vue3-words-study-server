@@ -18,9 +18,11 @@
     <br />
 
     <p class="center-align showdetail" style="color:white;">
-     <b> ( スキルのピクチャーをクリックして各詳細をご確認ください )</b>
+      <b> ( スキルのピクチャーをクリックして各詳細をご確認ください )</b>
     </p>
-     <p style="color:white;text-align:center">Click the picture of skill to Check More Details</p>
+    <p style="color:white;text-align:center">
+      Click the picture of skill to Check More Details
+    </p>
 
     <!-- 1. front-end -->
     <Title>
@@ -89,6 +91,9 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.skills {
+  background-color: rgba(250, 250, 250, 0.1);
+}
 .showdetail {
   margin-top: 2rem;
 }

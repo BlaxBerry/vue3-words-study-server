@@ -82,7 +82,7 @@
             "login to manage data",
             "Add or Edit articles or users data "
         ],
-        "website": "",
+        "website": "https://github.com/BlaxBerry/node_blog_management",
         "github": "https://github.com/BlaxBerry/node_blog_management",
         "desc": "SSR (Server Side Rending) created by Express.js, connected to MongoDB database. using TemplateEngine art-template to render HTML according to request URl and method from client.",
         "techStack": [

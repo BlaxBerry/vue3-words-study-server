@@ -2,20 +2,18 @@
   <div>
     <ul class="card-work-container">
       <li class="card-work" v-for="(item, index) in list" :key="index">
-        <img
-          :src="item.mianPic"
-          alt=""
-          class="shadow-box scale-box"
-          @click="clickCard(item)"
-        />
         <div class="card-content">
-          <h3 class="center-align"></h3>
-          <p class="center-align">{{ item.name }}</p>
-          <!-- link -->
-          <div class="center-align">
+          <img
+            :src="item.mianPic"
+            alt=""
+            class="shadow-box scale-box"
+            @click="clickCard(item)"
+          />
+          <div class="mask center-align">
             <a href="javascript:;" @click="clickCard(item)">Show More Detail</a>
           </div>
         </div>
+        <p class="center-align">{{ item.name }}</p>
       </li>
     </ul>
   </div>
@@ -48,14 +46,33 @@ export default {
   align-items: center;
   flex-wrap: wrap;
   .card-work {
-    position: relative;
     width: 160px;
     width: 16rem;
     // background-color: antiquewhite;
     margin: 1.2rem;
     cursor: pointer;
     .card-content {
-      padding: 1rem 0;
+      position: relative;
+      margin: 1rem 0;
+      .mask {
+        position: absolute;
+        bottom: .5rem;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 1rem;
+        background-color: rgba(0, 0, 0, 0.8);
+        transform: scale(0);
+        transition: all 1s;
+        a {
+          color: white;
+        }
+      }
+      &:hover {
+        .mask {
+          transform: scale(1);
+        }
+      }
     }
   }
 }
