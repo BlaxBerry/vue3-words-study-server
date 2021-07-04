@@ -34,7 +34,7 @@ import TopPic from "@/views/Home/TopPic.vue";
 import Skills from "@/views/Home/Skills.vue";
 import Works from "@/views/Home/Works.vue";
 import Contact from "@/views/Home/Contact.vue";
-import Footer from "@/views/Home/Footer.vue";
+import Footer from "@/components/Footer/Footer.vue";
 import MaskWork from "@/components/Mask/MaskWork.vue";
 import MaskSkill from "@/components/Mask/MaskSkill.vue";
 

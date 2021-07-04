@@ -22,6 +22,13 @@
           ></vue-typer>
         </b>
       </div>
+      <!-- link to profile page -->
+      <div class="linkProfile">
+        <router-link to="/profile">
+          <img src="../../assets/images/arrowJump.svg" alt="" />
+          <span>Check More</span>
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
@@ -91,6 +98,23 @@ export default {
         font-style: normal;
         font-size: 2rem;
         font-style: italic;
+      }
+    }
+    .linkProfile {
+      position: absolute;
+      bottom: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      a {
+        font-weight: 700;
+        color: black; ///////
+        img {
+          position: absolute;
+          left: -75%;
+          bottom: 0;
+          height: 3rem;
+          vertical-align: middle;
+        }
       }
     }
   }
