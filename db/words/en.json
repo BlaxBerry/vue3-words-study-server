@@ -1,0 +1,27 @@
+[
+    {
+        "id": "ABCDEFG1",
+        "name": "Increase",
+        "createAt": "2022-02-26-12",
+        "expressions": [
+            {
+                "a": "The population has increased from 1.2 million to 1.8 million.",
+                "b": "人口已从120万增加到了180万。"
+            },
+            {
+                "a": "They have increased their share of the market by 10%.",
+                "b": "他们将其所占的市场份额增加了10%。"
+            },
+            {
+                "a": "Smoking can increase the risk of developing heart disease.",
+                "b": "吸烟会增加得心脏病的危险。"
+            }
+        ]
+    },
+    {
+        "id": "ABCDEFG2",
+        "name": "Decrease",
+        "createAt": "2022-02-26-01",
+        "expressions": []
+    }
+]
